@@ -28,8 +28,18 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Products</a>
+        </li><li class="nav-item">
+          <a class="nav-link" href="#">Register</a>
         </li>
-        
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cart</a>
+          <li class="nav-item">
+          <a class="nav-link" href="#"></a>
+        </li>
+        </li>
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
