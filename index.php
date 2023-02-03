@@ -37,7 +37,7 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Cart</a>
           <li class="nav-item">
-          <a class="nav-link" href="#"></a>
+          <a class="nav-link" href="#">Total price:100/-</a>
         </li>
         </li>
       </ul>
