@@ -11,7 +11,8 @@
     <!---font awesome link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+     <script src="https://kit.fontawesome.com/4b57ca4420.js" crossorigin="anonymous"></script>
+    </head>
 <body>
 <!---navbar-->
 <div class="container-fluid p-0">
@@ -35,7 +36,7 @@
           <a class="nav-link" href="#">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fa-regular fa-cart-shopping"></i></a>
+          <a class="nav-link" href="#"><></i></a>
           <li class="nav-item">
           <a class="nav-link" href="#">Total price:100/-</a>
         </li>
