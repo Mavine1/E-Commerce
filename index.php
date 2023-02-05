@@ -52,6 +52,8 @@
   </div>
 </nav>
 </div>
+nav.navbar.navbar-
+<!---footer-->
 <div class="bg-info p-3 text-center">
   <p>All rights reserved 2023 Designed by Mavine</p>
 </div>
