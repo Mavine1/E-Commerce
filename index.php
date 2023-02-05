@@ -71,7 +71,13 @@
 </div>
 <!--fourth-->
 <div class="row">
-  div.col
+  <div class="col md-10">
+    <!--products-->
+
+  </div>
+  <div class="col md-2">
+    <!--
+  </div>
 </div>
 <!---footer-->
 <div class="bg-info p-0 text-center">
