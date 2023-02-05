@@ -53,7 +53,9 @@
 </nav>
 </div>
 <!---Second part--->
-<nav class="navbar navbar-expand-light bg-info"></nav>
+<nav class="navbar navbar-expand-lg navbar-dark  bg-secondary">
+  ul.navbar-nav </me-auto>
+</nav>
 <!---footer-->
 <div class="bg-info p-3 text-center">
   <p>All rights reserved 2023 Designed by Mavine</p>
