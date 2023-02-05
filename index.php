@@ -104,7 +104,7 @@
 </div>
   </div>
 <div class="col md-4">
-<div class="card" style="width: 18rem;">
+<div class="card">
   <img src="..." class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
