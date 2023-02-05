@@ -52,8 +52,8 @@
   </div>
 </nav>
 </div>
-<div class="bg-info">
-  <p></p>
+<div class="bg-info p-3">
+  <p>All rights reserved 2023 Designed by Mavine</p>
 </div>
 <!---bootstrap js link---> 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
