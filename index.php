@@ -64,6 +64,10 @@
         </li>
   </ul>
 </nav>
+<!---third--->
+<div class="bg-light">
+  <h3 class="text-center"></h3>
+</div>
 <!---footer-->
 <div class="bg-info p-0 text-center">
   <p>All rights reserved 2023 Designed by Mavine</p>
