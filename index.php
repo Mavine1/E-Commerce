@@ -57,12 +57,15 @@
 <nav class="navbar navbar-expand-lg navbar-dark  bg-secondary">
   <ul class="navbar-nav me-auto">
   <li class="nav-item">
-          <a class="nav-link" href="#">Products</a>
+          <a class="nav-link" href="#">Welcome Guest</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
         </li>
   </ul>
 </nav>
 <!---footer-->
-<div class="bg-info p-3 text-center">
+<div class="bg-info p-2 text-center">
   <p>All rights reserved 2023 Designed by Mavine</p>
 </div>
 <!---bootstrap js link---> 
