@@ -31,7 +31,8 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Products</a>
-        </li><li class="nav-item">
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#">Register</a>
         </li>
         <li class="nav-item">
@@ -54,7 +55,11 @@
 </div>
 <!---Second part--->
 <nav class="navbar navbar-expand-lg navbar-dark  bg-secondary">
-  ul.navbar-nav </me-auto>
+  <ul class="navbar-nav me-auto">
+  <li class="nav-item">
+          <a class="nav-link" href="#">Products</a>
+        </li>
+  </ul>
 </nav>
 <!---footer-->
 <div class="bg-info p-3 text-center">
