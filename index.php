@@ -52,7 +52,7 @@
   </div>
 </nav>
 </div>
-<div class="bg-info p-3">
+<div class="bg-info p-3 text-center">
   <p>All rights reserved 2023 Designed by Mavine</p>
 </div>
 <!---bootstrap js link---> 
