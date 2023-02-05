@@ -66,7 +66,8 @@
 </nav>
 <!---third--->
 <div class="bg-light">
-  <h3 class="text-center"></h3>
+  <h3 class="text-center">Store</h3>
+  <p class="text-center">Communication is the heart of E-commerce and community</p>
 </div>
 <!---footer-->
 <div class="bg-info p-0 text-center">
