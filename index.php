@@ -73,10 +73,12 @@
 <div class="row">
   <div class="col md-10">
     <!--products-->
-
+<div class="row">
+  <div class="col md-4"></div>
+</div>
   </div>
   <div class="col md-2">
-    <!--
+    <!--sidenav-->
   </div>
 </div>
 <!---footer-->
