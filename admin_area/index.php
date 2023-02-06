@@ -12,7 +12,7 @@
 <body>
     <!---navbar-->
     <div class="container-fluid">
-        d
+        <nav class="navbar navbar-expand-lg navbar-light bg></nav>
     </div>
 
 
