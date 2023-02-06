@@ -12,7 +12,11 @@
 <body>
     <!---navbar-->
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg></nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <div class="container-fluid">
+                <img src="./images/logo.png" alt="">
+            </div>
+        </nav>
     </div>
 
 
