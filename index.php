@@ -143,7 +143,7 @@
 </div>
   </div>
 
-  <div class="col-md-2">
+  <div class="col-md-2 bg secondary">
     <!--sidenav-->
   </div>
 </div>
