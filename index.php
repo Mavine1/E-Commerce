@@ -143,8 +143,10 @@
 </div>
   </div>
 
-  <div class="col-md-2 bg secondary">
-    <!--sidenav-->
+  <div class="col-md-2 bg-secondary">
+    <ul class="navbar-nav me-auto">
+      li.nav-item 
+    </ul>
   </div>
 </div>
 <!---footer-->
