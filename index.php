@@ -145,7 +145,9 @@
 
   <div class="col-md-2 bg-secondary">
     <ul class="navbar-nav me-auto">
-      li.nav-item 
+      <li class="nav-item bg-info">
+        a.nav
+      </li>
     </ul>
   </div>
 </div>
