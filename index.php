@@ -144,9 +144,11 @@
   </div>
 
   <div class="col-md-2 bg-secondary p-0">
+    <ul class = "navbar-nav me-auto text-center">
   <li class="nav-item bg-info">
         <a href="#" class="nav-link text-light">Brand 2</a>
       </li>
+</ul>
   </div>
   <div class="col-md-2 bg-secondary p-0">
     <!---brands to be displyed-->
