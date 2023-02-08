@@ -166,7 +166,9 @@
     </ul>
   </div>
   <div class="col-md-2 bg-secondary p-0">
-    .navbar-nav.
+    <!---brands to be displyed-->
+    <ul class="navbar-nav me-auto text-center"></ul>
+    <!---Categories--->$_COOKIE
   </div>
 </div>
 <!---footer-->
