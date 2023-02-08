@@ -144,7 +144,7 @@
   </div>
 
   <div class="col-md-2 bg-secondary p-0">
-    <ul class="navbar-nav me-auto">
+    <ul class="navbar-nav me-auto text-center">
       <li class="nav-item bg-info">
         <a href="#" class="nav-link text-light"><h4>Delivery Brands</h4></a>
       </li>
