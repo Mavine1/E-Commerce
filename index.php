@@ -144,31 +144,14 @@
   </div>
 
   <div class="col-md-2 bg-secondary p-0">
-    <ul class="navbar-nav me-auto text-center">
-      <li class="nav-item bg-info">
-        <a href="#" class="nav-link text-light"><h4>Delivery Brands</h4></a>
-      </li>
-      <li class="nav-item ">
-        <a href="#" class="nav-link text-light">Brand 1</a>
-      </li>
-      <li class="nav-item ">
+  <li class="nav-item bg-info">
         <a href="#" class="nav-link text-light">Brand 2</a>
       </li>
-      <li class="nav-item ">
-        <a href="#" class="nav-link text-light">Brand 3</a>
-      </li>
-      <li class="nav-item ">
-        <a href="#" class="nav-link text-light">Brand 4</a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link text-light">Brand 5</a>
-      </li>
-    </ul>
   </div>
   <div class="col-md-2 bg-secondary p-0">
     <!---brands to be displyed-->
     <ul class="navbar-nav me-auto text-center"></ul>
-    <!---Categories--->$_COOKIE
+    <!---Categories--->
   </div>
 </div>
 <!---footer-->
