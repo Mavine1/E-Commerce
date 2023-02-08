@@ -143,19 +143,7 @@
 </div>
   </div>
 
-  <div class="col-md-2 bg-secondary p-0">
-  <ul class = "navbar-nav me-auto text-center">
-   <li class="nav-item bg-info">
-        <a href="#" class="nav-link text-light"><h4>delivery brands</h4></a>
-      </li>
-</ul>
-  </div>
-  <div class="col-md-2 bg-secondary p-0">
-    <!---brands to be displyed-->
-    <ul class="navbar-nav me-auto text-center"></ul>
-    <!---Categories--->
-  </div>
-</div>
+  <div class="col-md-2 bg-secondary p-0"><\
 <!---footer-->
 <div class="bg-info p-0 text-center">
   <p>All rights reserved 2023 Designed by Mavine</p>
