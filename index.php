@@ -165,6 +165,9 @@
       </li>
     </ul>
   </div>
+  <div class="col-md-2 bg-secondary p-0">
+    .navbar-nav.
+  </div>
 </div>
 <!---footer-->
 <div class="bg-info p-0 text-center">
