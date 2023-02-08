@@ -143,10 +143,10 @@
 </div>
   </div>
 
-  <div class="col-md-2 bg-secondary">
+  <div class="col-md-2 bg-secondary p-0">
     <ul class="navbar-nav me-auto">
       <li class="nav-item bg-info">
-        <a href="#" class="nav-link">Delivery Brands</a>
+        <a href="#" class="nav-link text-light">Delivery Brands</a>
       </li>
     </ul>
   </div>
