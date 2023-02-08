@@ -146,7 +146,7 @@
   <div class="col-md-2 bg-secondary">
     <ul class="navbar-nav me-auto">
       <li class="nav-item bg-info">
-        <a href="" class="nav-link"></a>
+        <a href="#" class="nav-link">Delivery Brands</a>
       </li>
     </ul>
   </div>
