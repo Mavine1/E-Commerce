@@ -164,6 +164,7 @@
         <a href="#" class="nav-link text-light">Brand 5</a>
       </li>
     </ul>
+</div>
     <div class="col-md-2 bg-secondary p-0">
     <ul class="navbar-nav me-auto text-center">
     <li class="nav-item bg-info">
