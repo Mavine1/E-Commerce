@@ -164,6 +164,9 @@
         <a href="#" class="nav-link text-light">Brand 5</a>
       </li>
     </ul>
+    <div class="col-md-2 bg-secondary p-0">
+    <ul class="navbar-nav me-auto text-center"></ul>
+    </div>
   </div>
 <!---footer-->
 <div class="bg-info p-0 text-center">
