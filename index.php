@@ -164,7 +164,27 @@
         <a href="#" class="nav-link text-light">Brand 5</a>
       </li>
     </ul>
-  
+  <!------categories--->
+  <ul class="navbar-nav me-auto text-center">
+      <li class="nav-item bg-info">
+        <a href="#" class="nav-link text-light"><h4>Delivery Brands</h4></a>
+      </li>
+      <li class="nav-item ">
+        <a href="#" class="nav-link text-light"> categories</h4></a>
+      </li>
+      <li class="nav-item ">
+        <a href="#" class="nav-link text-light">categories</a>
+      </li>
+      <li class="nav-item ">
+        <a href="#" class="nav-link text-light">cata</a>
+      </li>
+      <li class="nav-item ">
+        <a href="#" class="nav-link text-light">Brand 4</a>
+      </li>
+      <li class="nav-item ">
+        <a href="#" class="nav-link text-light">Brand 5</a>
+      </li>
+    </ul>
 </div>
 <!---footer-->
 <div class="bg-info p-0 text-center">
