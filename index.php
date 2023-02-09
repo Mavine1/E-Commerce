@@ -161,7 +161,7 @@
         <a href="#" class="nav-link text-light">Brand 4</a>
       </li>
       <li class="nav-item bg-info">
-        <a href="#" class="nav-link text-light"><h4>Delivery Brands</h4></a>
+        <a href="#" class="nav-link text-light">Brand 5</a>
       </li>
     </ul>
   </div>
