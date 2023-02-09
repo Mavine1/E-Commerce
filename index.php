@@ -144,7 +144,11 @@
   </div>
 
   <div class="col-md-2 bg-secondary p-0">
-    
+    <ul class="navbar-nav me-auto">
+      <li class="nav-itembg-info">
+        a.nav-link
+      </li>
+    </ul>
   </div>
 <!---footer-->
 <div class="bg-info p-0 text-center">
