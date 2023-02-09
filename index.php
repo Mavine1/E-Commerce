@@ -167,22 +167,22 @@
   <!------categories--->
   <ul class="navbar-nav me-auto text-center">
       <li class="nav-item bg-info">
-        <a href="#" class="nav-link text-light"><h4>Delivery Brands</h4></a>
+        <a href="#" class="nav-link text-light"><h4>Categories</h4></a>
       </li>
       <li class="nav-item ">
-        <a href="#" class="nav-link text-light"> categories</h4></a>
+        <a href="#" class="nav-link text-light"> categories 1</h4></a>
       </li>
       <li class="nav-item ">
-        <a href="#" class="nav-link text-light">categories</a>
+        <a href="#" class="nav-link text-light">categories 2</a>
       </li>
       <li class="nav-item ">
-        <a href="#" class="nav-link text-light">cata</a>
+        <a href="#" class="nav-link text-light">categories 3</a>
       </li>
       <li class="nav-item ">
-        <a href="#" class="nav-link text-light">Brand 4</a>
+        <a href="#" class="nav-link text-light">categories 4</a>
       </li>
       <li class="nav-item ">
-        <a href="#" class="nav-link text-light">Brand 5</a>
+        <a href="#" class="nav-link text-light">categories 5</a>
       </li>
     </ul>
 </div>
