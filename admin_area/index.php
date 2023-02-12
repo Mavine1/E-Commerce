@@ -42,7 +42,9 @@
                     <a href="" > <img src="../images/watch.png" alt="" class="admin_image"></a>
                     <p class="text-light text-center">Admin Name</p>
                 </div>
-                
+                <div class="button text-center">
+                    button*10>a.nav.link.text-light.bg-info.m
+                </div>
             </div>
         </div>
     </div>
