@@ -12,6 +12,7 @@
     height: 200px;
     object-fit: contain;
 }
-.admin_image{
+/*.admin_image{
     width:100px;
+    object-fit: contain;
 }
