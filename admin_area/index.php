@@ -43,7 +43,7 @@
                     <p class="text-light text-center">Admin Name</p>
                 </div>
                 <div class="button text-center">
-                    <button><a href="" class="nav link text-light bg-info my-1"></a></button>
+                    <button><a href="" class="nav link text-light bg-info my-"></a></button>
                     <button><a href="" class="nav link text-light bg-info my-1"></a></button>
                     <button><a href="" class="nav link text-light bg-info my-1"></a></button>
                     <button><a href="" class="nav link text-light bg-info my-1"></a></button>
