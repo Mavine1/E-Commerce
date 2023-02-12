@@ -37,7 +37,7 @@
         </div>
         <!---->
         <div class="row">
-            <div class="col md-12 bg-secondary p-1">
+            <div class="col md-12 bg-secondary p-1 ">
                 <div>
                     <a href="" > <img src="../images/watch.png" alt="" class="admin_image"></a>
                     <p class="text-light text-center">Admin Name</p>
