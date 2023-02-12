@@ -51,8 +51,8 @@
                     <button><a href="" class="nav-link text-light bg-info my-1">View Brands</a></button>
                     <button><a href="" class="nav-link text-light bg-info my-1">All orders</a></button>
                     <button><a href="" class="nav-link text-light bg-info my-1">All payments</a></button>
-                    <button><a href="" class="nav-link text-light bg-info my-1">List users</button>
-                    <button><a href="" class="nav-link text-light bg-info my-1"></a>Logout</button>
+                    <button><a href="" class="nav-link text-light bg-info my-1">List users</a></button>
+                    <button><a href="" class="nav-link text-light bg-info my-1">Logout</a></button>
                 </div>
             </div>
         </div>
