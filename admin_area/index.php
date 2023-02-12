@@ -44,15 +44,15 @@
                 </div>
                 <div class="button text-center">
                     <button><a href="" class="nav-link text-light bg-info my-1">Insert products</a></button>
-                    <button><a href="" class="nav-link text-light bg-info my-1"></a>View products</button>
+                    <button><a href="" class="nav-link text-light bg-info my-1">View products</a></button>
                     <button><a href="" class="nav-link text-light bg-info my-1"></a>Insert categories</button>
                     <button><a href="" class="nav-link text-light bg-info my-1"></a>View Categories</button>
                     <button><a href="" class="nav-link text-light bg-info my-1"></a>Insert Brands</button>
                     <button><a href="" class="nav-link text-light bg-info my-1"></a>View Brands</button>
                     <button><a href="" class="nav-link text-light bg-info my-1"></a>All orders</button>
                     <button><a href="" class="nav-link text-light bg-info my-1"></a>All payments</button>
-                    <button><a href="" class="nav-link text-light bg-info my-1"></a></button>
-                    <button><a href="" class="nav-link text-light bg-info my-1"></a></button>
+                    <button><a href="" class="nav-link text-light bg-info my-1"></a>List users</button>
+                    <button><a href="" class="nav-link text-light bg-info my-1"></a>Logout</button>
                 </div>
             </div>
         </div>
