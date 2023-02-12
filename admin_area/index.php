@@ -34,6 +34,7 @@
             <div class="col md-12 bg-secondary p-1">
                 <div>
                     <a href="" > <img src="../images/watch.png" alt=""></a>
+                    <p class="text-light text-center">Admin Name</p>
                 </div>
             </div>
         </div>
