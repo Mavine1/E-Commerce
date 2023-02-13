@@ -43,7 +43,7 @@
                     <p class="text-light text-center">Admin Name</p>
                 </div>
                 <div class="button text-center">
-                    <button><a href="" class="nav-link text-light bg-info my-1">Insert products</a></button>
+                    <button class="my-3"><a href="" class="nav-link text-light bg-info my-1">Insert products</a></button>
                     <button><a href="" class="nav-link text-light bg-info my-1">View products</a></button>
                     <button><a href="" class="nav-link text-light bg-info my-1">Insert categories</a></button>
                     <button><a href="" class="nav-link text-light bg-info my-1">View Categories</a></button>
