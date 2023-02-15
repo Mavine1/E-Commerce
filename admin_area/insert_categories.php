@@ -6,8 +6,8 @@
 </div>
 <div class="input-group w-10  mb-2">
  
-  <input type="submit" class="form-control" name="Insert_cat"
-  placeholder="insert categories" aria-label="Username"
-   aria-describedby="basic-addon1">
+  <input type="submit" class="form-control" name="insert_cat"
+  value="insert categories" aria-label="Username"
+   aria-describedby="basic-addon1" class="bg-info">
 </div>
 </form>
