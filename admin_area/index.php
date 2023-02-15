@@ -64,7 +64,9 @@
 
         <div class="container">
         <?php 
-        if(isset($))
+        if(isset($_GET['insert_category'])){
+            include('insert')
+        }
         ?>
         </div>
         <!---last child--->
