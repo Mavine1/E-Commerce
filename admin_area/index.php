@@ -63,7 +63,9 @@
         </div>
 
         <div class="container">
-        
+        <?php 
+        if(isset($))
+        ?>
         </div>
         <!---last child--->
         <div class="bg-info p-0 text-center">
