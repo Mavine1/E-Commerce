@@ -65,7 +65,7 @@
         <div class="container">
         <?php 
         if(isset($_GET['insert_category'])){
-            include('insert')
+            include('insert_categories.php');
         }
         ?>
         </div>
