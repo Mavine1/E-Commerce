@@ -62,7 +62,7 @@
             </div>
         </div>
 
-        <div class="container">
+        <div class="container my-5">
         <?php 
         if(isset($_GET['insert_category'])){
             include('insert_categories.php');
