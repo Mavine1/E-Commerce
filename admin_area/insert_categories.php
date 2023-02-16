@@ -6,7 +6,8 @@
 </div>
 <div class="input-group w-10  mb-2 m-auto">
  
-  <input type="submit" class="form-control bg-info" name="insert_cat"
-  value="insert categories" >
+ <!-- <input type="submit" class="form-control bg-info" name="insert_cat"
+  value="insert categories" >-->
+  <buttonclass="form-control bg-info">Insert Categories</button>
 </div>
 </form>
