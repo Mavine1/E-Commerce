@@ -8,6 +8,6 @@
  
  <!-- <input type="submit" class="form-control bg-info" name="insert_cat"
   value="insert categories" >-->
-  <button class=" bg-info px-3 border-0">Insert Categories</button>
+  <button class=" bg-info p-3 border-0">Insert Categories</button>
 </div>
 </form>
