@@ -12,8 +12,8 @@ include('../includes/connect.php');
 </div>
 <div class="input-group w-10  mb-2 m-auto">
  
- <!-- <input type="submit" class="form-control bg-info" name="insert_cat"
-  value="insert categories" >-->
-  <button class=" bg-info p-2 my-3 border-0">Insert Categories</button>
+ <input type="submit" class="form-control bg-info" name="insert_cat"
+  value="insert categories" >
+  
 </div>
 </form>
