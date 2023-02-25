@@ -1,7 +1,8 @@
 <?php
 include('../includes/connect.php');
 if(isset($_POST['insert_cart'])){
-  $category_title=$
+  $category_title=$_POST['cat_title'];
+  $insert_
 }
 
 ?>
