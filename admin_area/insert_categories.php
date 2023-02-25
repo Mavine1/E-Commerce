@@ -2,7 +2,7 @@
 include('../includes/connect.php');
 if(isset($_POST['insert_cart'])){
   $category_title=$_POST['cat_title'];
-  $insert_
+  $insert_query="insert into 'categories' (category_title) ";
 }
 
 ?>
