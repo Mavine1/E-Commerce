@@ -5,7 +5,7 @@ if(isset($_POST['insert_cart'])){
   $insert_query="insert into 'categories' (category_title) values ('$category_title')";
   $result=mysqli_query($con,$insert_query);
   if($result){
-    echo "<script>"
+    echo "<script>alert('category has been inserted succefully'</script>";
   }
 }
 
