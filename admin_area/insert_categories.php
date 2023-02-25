@@ -1,8 +1,8 @@
 <?php
 include('../includes/connect.php');
-if(isset($_POST['insert_cart'])){
+if(isset($_POST['insert_cat'])){
   $Category_title=$_POST['cat_title'];
-  $insert_query="insert into 'categories' (category_title) values ('$Category_title')";
+  $insert_query="insert into 'categories' (Category_title) values ('$Category_title')";
   $result=mysqli_query($con,$insert_query);
   if($result){
     echo "<script>alert('category has been inserted successfully')</script>";
