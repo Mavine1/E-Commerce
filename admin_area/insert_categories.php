@@ -1,6 +1,8 @@
 <?php
 include('../includes/connect.php');
-if()
+if(isset($_POST['insert_cart'])){
+  $category_title=$
+}
 
 ?>
 
