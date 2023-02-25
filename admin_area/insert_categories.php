@@ -2,7 +2,8 @@
 include('../includes/connect.php');
 if(isset($_POST['insert_cart'])){
   $category_title=$_POST['cat_title'];
-  $insert_query="insert into 'categories' (category_title) ";
+  $insert_query="insert into 'categories' (category_title) values ('$category_title')";
+  $result=mysqli_query($con,)
 }
 
 ?>
