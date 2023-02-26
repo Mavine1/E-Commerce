@@ -8,7 +8,6 @@ if(isset($_POST['insert_cat'])){
     echo "<script>alert('category has been inserted successfully')</script>";
   }
 }
-
 ?>
 
 
