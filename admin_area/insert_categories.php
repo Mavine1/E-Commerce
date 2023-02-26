@@ -2,6 +2,8 @@
 include('../includes/connect.php');
 if(isset($_POST['insert_cat'])){
   $category_title=$_POST['cat_title'];
+  //select data from the database//
+  $select_query=""
   $insert_query="insert into 'categories' (category_title) values ('$category_title')";
   $result=mysqli_query($con,$insert_query);
   if($result){
