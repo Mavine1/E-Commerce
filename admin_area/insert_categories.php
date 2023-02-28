@@ -7,7 +7,7 @@ if(isset($_POST['insert_cat'])){
   $result_select=mysqli_query($con,$select_query);
   $number=mysqli_num_rows($result_select);
   if($number>0){
-    
+    echo "<script>alert('Already exists in the database')</script>";
   }
   $insert_query="insert into 'categories' (category_title) values ('$category_title')";
   $result=mysqli_query($con,$insert_query);
