@@ -4,7 +4,8 @@ if(isset($_POST['insert_cat'])){
   $category_title=$_POST['cat_title'];
   //select data from the database//
   $select_query="select * from 'categories' where category_title ='$category_title'";
-  
+  $result_select=mysqli_query($con,$select_query);
+  $numver=mysqli_num_rows()
   $insert_query="insert into 'categories' (category_title) values ('$category_title')";
   $result=mysqli_query($con,$insert_query);
   if($result){
