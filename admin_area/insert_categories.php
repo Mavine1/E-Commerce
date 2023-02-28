@@ -3,7 +3,7 @@ include('../includes/connect.php');
 if(isset($_POST['insert_cat'])){
   $category_title=$_POST['cat_title'];
   //select data from the database//
-  $select_query="select * from 'categories'"
+  $select_query="select * from 'categories' where category_title ="
   $insert_query="insert into 'categories' (category_title) values ('$category_title')";
   $result=mysqli_query($con,$insert_query);
   if($result){
