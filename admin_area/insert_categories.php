@@ -8,6 +8,13 @@ if(isset($_POST['insert_cart'])){
    	Category_title=$category";
     //execute query
     $res=mysqli_query($con,$sql);
+    if($res==true){
+      //inserted
+      echo "inserted";
+    }else{
+      //not inserted
+      echo "Failed to insert";
+    }
     
 }
 ?>
