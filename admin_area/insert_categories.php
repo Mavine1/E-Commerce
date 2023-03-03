@@ -3,9 +3,12 @@ include('../includes/connect.php');
 if(isset($_POST['insert_cart'])){
   $category_title=$_POST['cart_title'];
   $sql="select * from categories where category_title ='$category_title'";
-  //E
+  //Execute the query
   $res=mysqli_query($con,$sql);
-
+  //count rows
+  $count=mysqli_num_rows($res);
+//Check whether categories are available or not
+if()
 
   $row=mysqli_num_rows($result_select);
  if($row==TRUE){
