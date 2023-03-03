@@ -3,10 +3,10 @@ include('../includes/connect.php');
 if(isset($_POST['insert_cart'])){
   $category_title=$_POST['cart_title'];
   //select data from the database//
-  $select_query="select * from categories where category_title ='$category_title'";
-  $result_select=mysqli_query($con,$select_query);
-  $row=mysqli_num_rows($result_select);
- if($row==TRUE){
+  //$select_query="select * from 'categories' where category_title ='$category_title'";
+ $r esult_select=mysqli_query($con,$select_query);
+  $nuxmber=mysqli_num_rows($result_select);
+ if($number>0){
     echo "<script>alert('Already exists in the database')</script>";
   }else{
   $insert_query="insert into 'categories' (Category_title) values ('$category_title')";
