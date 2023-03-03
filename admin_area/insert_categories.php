@@ -2,9 +2,11 @@
 include('../includes/connect.php');
 if(isset($_POST['insert_cart'])){
   $category_title=$_POST['cart_title'];
-  //QL="select * from categories where category_title ='$category_title'";
+  $sql="select * from categories where category_title ='$category_title'";
+  //E
+  $res=mysqli_query($con,$sql);
 
-  $result_select=mysqli_query($con,$select_query);
+
   $row=mysqli_num_rows($result_select);
  if($row==TRUE){
     echo "<script>alert('Already exists in the database')</script>";
