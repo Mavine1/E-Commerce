@@ -1,31 +1,6 @@
 <?php
 include('../includes/connect.php');
-
-
-
-
-if(isset($_POST['insert_cart'])){
-  $category_title=$_POST['cart_title'];
-  $sql="select * from categories where category_title ='$category_title'";
-  //Execute the query
-  $res=mysqli_query($con,$sql);
-  //count rows
-  $count=mysqli_num_rows($res);
-//Check whether categories are available or not
-if($count>0)
-{
-  //categori
-  echo "<script>alert('Already exists in the database')</script>";
-
-}else{
-  $insert_query="insert into 'categories' (Category_title) values ('$category_title')";
-  $result=mysqli_query($con,$insert_query);
-  if($result){
-    echo "<script>alert('category has been inserted successfully')</script>";
-  }
-
-}
-  }
+if(isset($))
 ?>
 
 
