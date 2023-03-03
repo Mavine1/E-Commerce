@@ -4,7 +4,7 @@ if(isset($_POST['insert_cart'])){
   $category=$_POST['cart_title'];
 
   //sql query
-  $sql="insert into ";
+  $sql="insert into categories set ";
 }
 ?>
 
