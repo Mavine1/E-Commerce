@@ -7,7 +7,8 @@ if(isset($_POST['insert_cart'])){
   $sql="insert into categories SET
    	Category_title=$category";
     //execute query
-    $sql=mysqli_query($con,$sql);
+    $res=mysqli_query($con,$sql);
+    
 }
 ?>
 
