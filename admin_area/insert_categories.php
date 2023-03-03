@@ -1,6 +1,10 @@
 <?php
 include('../includes/connect.php');
-if(isset($))
+if(isset($_POST['insert_cart'])){
+  $category=$_POST['cart_title']
+
+  echo $category;
+}
 ?>
 
 
