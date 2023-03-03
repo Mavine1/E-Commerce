@@ -1,5 +1,9 @@
 <?php
 include('../includes/connect.php');
+
+
+
+
 if(isset($_POST['insert_cart'])){
   $category_title=$_POST['cart_title'];
   $sql="select * from categories where category_title ='$category_title'";
