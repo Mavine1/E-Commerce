@@ -4,7 +4,10 @@ if(isset($_POST['insert_cart'])){
   $category=$_POST['cart_title'];
 
   //sql query
-  $sql="insert into categories set ";
+  $sql="insert into categories SET
+   	Category_title=$category";
+    //execute query
+    $sql=mysqli_query($con,$sql);
 }
 ?>
 
