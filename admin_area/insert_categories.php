@@ -8,7 +8,12 @@ if(isset($_POST['insert_cart'])){
   //count rows
   $count=mysqli_num_rows($res);
 //Check whether categories are available or not
-if()
+if($count>0)
+{
+  //categories
+  echo "<script>alert('Already exists in the database')</script>";
+
+}
 
   $row=mysqli_num_rows($result_select);
  if($row==TRUE){
