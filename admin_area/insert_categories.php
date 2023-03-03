@@ -1,9 +1,10 @@
 <?php
 include('../includes/connect.php');
 if(isset($_POST['insert_cart'])){
-  $category=$_POST['cart_title']
+  $category=$_POST['cart_title'];
 
-  echo $category;
+  //sql query
+  $sql="insert into ";
 }
 ?>
 
