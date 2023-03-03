@@ -5,7 +5,7 @@ if(isset($_POST['insert_cart'])){
   //select data from the database//
   $select_query="select * from 'categories' where category_title ='$category_title'";
   $result_select=mysqli_query($con,$select_query);
-  $number=mysqli_num_rows($result_select);
+  $nuxmber=mysqli_num_rows($result_select);
   if($number>0){
     echo "<script>alert('Already exists in the database')</script>";
   }else{
