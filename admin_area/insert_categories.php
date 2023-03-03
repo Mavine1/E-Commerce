@@ -1,6 +1,6 @@
 <?php
 include('../includes/connect.php');
-if(isset($_POST['insert_cat'])){
+if(isset($_POST['insert_cart'])){
   $category_title=$_POST['cat_title'];
   //select data from the database//
   $select_query="select * from 'categories' where category_title ='$category_title'";
@@ -26,7 +26,7 @@ if(isset($_POST['insert_cat'])){
 </div>
 <div class="input-group w-10  mb-2 m-auto">
  
- <input type="submit" class="bg-info border-0 p-2 my-3" name="insert_cat"
+ <input type="submit" class="bg-info border-0 p-2 my-3" name="insert_cart"
   value="insert categories" > 
   
 </div>
