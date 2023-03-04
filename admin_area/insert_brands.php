@@ -26,8 +26,8 @@ if(isset($_POST['insert_cart'])){
 </div>
 <div class="input-group w-10  mb-2 m-auto">
  
- <!-- <input type="submit" class="form-control bg-info" name="insert_cat"
-  value="insert categories" >-->
-  <button class=" bg-info p-2 my-3 border-0">Insert brands</button>
+ <input type="submit" class="bg-info border-o p-2 my-3" name="insert_cat"
+  value="insert Brands" >
+  
 </div>
 </form>
