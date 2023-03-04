@@ -12,7 +12,7 @@ if(isset($_POST['insert_brands'])){
   $insert_query="insert into Brands(brand_title) values ('$brand_title')";
   $result=mysqli_query($con,$insert_query);
   if($result){
-    echo "<script>alert('category has been inserted successfully')</script>";
+    echo "<script>alert('brand has been inserted successfully')</script>";
   }
 }}
 ?>
