@@ -3,7 +3,7 @@ include('../includes/connect.php');
 if(isset($_POST['insert_brands'])){
   $brand_title=$_POST['brand_title'];
   //select data from the database//
-  $select_query="select * from categories where category_title ='$category_title'";
+  $select_query="select * from Brands where category_title ='$category_title'";
   $result_select=mysqli_query($con,$select_query);
   $number=mysqli_num_rows($result_select);
  if($number==TRUE){
@@ -21,7 +21,7 @@ if(isset($_POST['insert_brands'])){
 <form action="" method="POST" class="mb-2">
 <div class="input-group w-90  mb-2">
   <span class="input-group-text bg-info" id="basic-addon1"><i class="fa-solid fa-receipt"></i></span>
-  <input type="text" class="form-control" name="cat_title"placeholder="insert brands" aria-label="brands"
+  <input type="text" class="form-control" name="brand_title"placeholder="insert brands" aria-label="brands"
    aria-describedby="basic-addon1">
 </div>
 <div class="input-group w-10  mb-2 m-auto">
