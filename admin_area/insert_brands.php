@@ -1,7 +1,7 @@
 <?php
 include('../includes/connect.php');
-if(isset($_POST['insert_cart'])){
-  $category_title=$_POST['cart_title'];
+if(isset($_POST['insert_brands'])){
+  $brand_title=$_POST['brand_title'];
   //select data from the database//
   $select_query="select * from categories where category_title ='$category_title'";
   $result_select=mysqli_query($con,$select_query);
@@ -26,7 +26,7 @@ if(isset($_POST['insert_cart'])){
 </div>
 <div class="input-group w-10  mb-2 m-auto">
  
- <input type="submit" class="bg-info border-o p-2 my-3" name="insert_cat"
+ <input type="submit" class="bg-info border-o p-2 my-3" name="insert_brands"
   value="insert Brands" >
   
 </div>
