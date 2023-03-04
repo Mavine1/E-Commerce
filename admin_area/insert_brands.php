@@ -3,13 +3,13 @@ include('../includes/connect.php');
 if(isset($_POST['insert_brands'])){
   $brand_title=$_POST['brand_title'];
   //select data from the database//
-  $select_query="select * from Brands where category_title ='$category_title'";
+  $select_query="select * from Brands where brand_title ='$brand_title'";
   $result_select=mysqli_query($con,$select_query);
   $number=mysqli_num_rows($result_select);
  if($number==TRUE){
     echo "<script>alert('Already exists in the database')</script>";
   }else{
-  $insert_query="insert into categories(category_title) values ('$category_title')";
+  $insert_query="insert into Brands(brand_title) values ('$brand_title')";
   $result=mysqli_query($con,$insert_query);
   if($result){
     echo "<script>alert('category has been inserted successfully')</script>";
