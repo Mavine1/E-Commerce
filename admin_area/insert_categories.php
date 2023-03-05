@@ -16,7 +16,7 @@ if(isset($_POST['insert_cart'])){
   }
 }}
 ?>
-
+<h2 class="text-center"></h2>
 
 <form action="" method="POST" class="mb-2">
 <div class="input-group w-90  mb-2">
