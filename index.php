@@ -151,6 +151,8 @@
       <li class="nav-item ">
         <a href="#" class="nav-link text-light"> Brand 1</h4></a>
       </li>
+      <?php
+      ?
       <li class="nav-item ">
         <a href="#" class="nav-link text-light">Brand 2</a>
       </li>
