@@ -15,7 +15,10 @@
     <!---css-link-->
     <link rel="stylesheet" href="../style.css">
 </head>
-<body >
+<body class="bg-light">
+    <div class="container">
+        <h1 class="text-center"></h1>
+    </div>
     
 </body>
 </html>
