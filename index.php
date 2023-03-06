@@ -152,7 +152,8 @@
         <a href="#" class="nav-link text-light"> Brand 1</h4></a>
       </li>
       <?php
-      $select_brands="select * from Bra"
+      $select_brands="select * from Brands";
+      $result_brands=mysqli-query($con,$select_brands);
       ?>
       <li class="nav-item ">
         <a href="#" class="nav-link text-light">Brand 2</a>
