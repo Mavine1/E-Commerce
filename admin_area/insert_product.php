@@ -21,7 +21,8 @@
         <!--form-->
         <form action="" method="post" enctype="multipart/form-data">
             <div class="form-outline mb-4">
-                <label for="" class="form-label"></label>
+                <label for="product_title" class="form-label">product_title</label>
+                <input type="text" name="" id="">
             </div>
         </form>
     </div>
