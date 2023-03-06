@@ -175,9 +175,9 @@ include('includes/connect.php');
         <a href="#" class="nav-link text-light"><h4>Categories</h4></a>
       </li>
 
-      fetching of data from the database
+      <!--fetching of data from the database-->
       <?php
-      $select_brands="select * from Brands";
+      $select_brands="select * from Categories";
       $result_brands=mysqli_query($con,$select_brands);
       //$row_data=mysqli_fetch_assoc($result_brands);
       //echo $row_data['brand_title'];
