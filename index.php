@@ -185,7 +185,7 @@ include('includes/connect.php');
         $category_title=$row_data['category_title'];
         $category_id=$row_data['category_id'];
         echo "<li class='nav-item '>
-        <a href='index.php?brand=$brand_id' class='nav-link text-light'>$brand_title</a>
+        <a href='index.php?category=$category_id' class='nav-link text-light'>$category_title</a>
       </li>";
       }
       ?>
