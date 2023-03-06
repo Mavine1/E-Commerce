@@ -177,13 +177,13 @@ include('includes/connect.php');
 
       <!--fetching of data from the database-->
       <?php
-      $select_brands="select * from Categories";
-      $result_brands=mysqli_query($con,$select_brands);
+      $select_category="select * from Categories";
+      $result_category=mysqli_query($con,$select_category);
       //$row_data=mysqli_fetch_assoc($result_brands);
       //echo $row_data['brand_title'];
-      while($row_data=mysqli_fetch_assoc($result_brands)){
-        $brand_title=$row_data['brand_title'];
-        $brand_id=$row_data['brand_id'];
+      while($row_data=mysqli_fetch_assoc($result_category)){
+        $category_title=$row_data['category_title'];
+        $category_id=$row_data['category_id'];
         echo "<li class='nav-item '>
         <a href='index.php?brand=$brand_id' class='nav-link text-light'>$brand_title</a>
       </li>";
