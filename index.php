@@ -152,13 +152,12 @@ include('includes/connect.php');
       <li class="nav-item bg-info">
         <a href="#" class="nav-link text-light"><h4>Delivery Brands</h4></a>
       </li>
-      <li class="nav-item ">
-        <a href="#" class="nav-link text-light"> Brand 1</h4></a>
-      </li>
+
       <!--fetching data-->
+      
       <?php
       $select_brands="select * from Brands";
-      $result_brands=mysqliquery($con,$select_brands);
+      $result_brands=mysqli_query($con,$select_brands);
       $row_data=mysqli_fetch_assoc($result_brands);
       echo $row_data['brand_title'];
       ?>
