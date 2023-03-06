@@ -162,7 +162,8 @@ include('includes/connect.php');
       //echo $row_data['brand_title'];
       while($row_data=mysqli_fetch_assoc($result_brands)){
         $brand_title=$row_data['brand_title'];
-        $brand_id=$row_data['brand_']
+        $brand_id=$row_data['brand_id'];
+        echo $bran;
       }
       ?>
       <li class="nav-item ">
