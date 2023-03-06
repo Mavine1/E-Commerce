@@ -177,15 +177,15 @@ include('includes/connect.php');
 
       <!--fetching of data from the database-->
       <?php
-      $select_category="select * from Categories";
+      $select_category="select * from categories";
       $result_category=mysqli_query($con,$select_category);
       //$row_data=mysqli_fetch_assoc($result_brands);
       //echo $row_data['brand_title'];
       while($row_data=mysqli_fetch_assoc($result_category)){
         $category_title=$row_data['category_title'];
-        $category_id=$row_data['category_id'];
+        $Category_id=$row_data['Category_id'];
         echo "<li class='nav-item '>
-        <a href='index.php?category=$category_id' class='nav-link text-light'>$category_title</a>
+        <a href='index.php?category=$Category_id' class='nav-link text-light'>$category_title</a>
       </li>";
       }
       ?>
