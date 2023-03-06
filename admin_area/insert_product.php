@@ -19,7 +19,7 @@
     <div class="container mt-3">
         <h1 class="text-center">Insert products</h1>
         <!--form-->
-        <form action
+        <form action="" method="post" enctype="></form>
     </div>
     
 </body>
