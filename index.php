@@ -152,7 +152,8 @@
         <a href="#" class="nav-link text-light"> Brand 1</h4></a>
       </li>
       <?php
-      ?
+      $select_brands="select * from Bra"
+      ?>
       <li class="nav-item ">
         <a href="#" class="nav-link text-light">Brand 2</a>
       </li>
