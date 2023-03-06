@@ -19,7 +19,11 @@
     <div class="container mt-3">
         <h1 class="text-center">Insert products</h1>
         <!--form-->
-        <form action="" method="post" enctype="></form>
+        <form action="" method="post" enctype="multipart/form-data">
+            <div class="form-outline mb-4">
+                <label for="" class="form-label"></label>
+            </div>
+        </form>
     </div>
     
 </body>
