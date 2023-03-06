@@ -155,10 +155,12 @@ include('includes/connect.php');
       <li class="nav-item ">
         <a href="#" class="nav-link text-light"> Brand 1</h4></a>
       </li>
-      --fetching data
+      <!--fetching data-->
       <?php
       $select_brands="select * from Brands";
       $result_brands=mysqli-query($con,$select_brands);
+      $row_data=mysqli_fetch_assoc($result_brands);
+      
       ?>
       <li class="nav-item ">
         <a href="#" class="nav-link text-light">Brand 2</a>
