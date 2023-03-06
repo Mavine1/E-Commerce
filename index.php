@@ -1,3 +1,7 @@
+<!--connect file-->
+<?php
+include('/in')
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
