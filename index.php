@@ -163,7 +163,9 @@ include('includes/connect.php');
       while($row_data=mysqli_fetch_assoc($result_brands)){
         $brand_title=$row_data['brand_title'];
         $brand_id=$row_data['brand_id'];
-        echo $bran;
+        echo "<li class='nav-item '>
+        <a href='#' class='nav-link text-light">Brand 2</a>
+      </li>";
       }
       ?>
       <li class="nav-item ">
