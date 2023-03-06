@@ -16,8 +16,10 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body class="bg-light">
-    <div class="container">
-        <h1 class="text-center"></h1>
+    <div class="container mt-3">
+        <h1 class="text-center">Insert products</h1>
+        <!--form-->
+        <form action
     </div>
     
 </body>
