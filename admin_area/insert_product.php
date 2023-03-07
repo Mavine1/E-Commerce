@@ -62,6 +62,11 @@
                 <input type="file" name="product_image1" id="product_image1" class="form-control"
                 placeholder="keyword"autocomplete="off" required="required">
             </div>
+            <div class="form-outline mb-4 w-50 m-auto">
+                <label for="product_image" class="form-label">product image2</label>
+                <input type="file" name="product_image2" id="product_image2" class="form-control"
+                placeholder="keyword"autocomplete="off" required="required">
+            </div>
         </form>
     </div>
     
