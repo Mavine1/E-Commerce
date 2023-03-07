@@ -28,7 +28,13 @@
             </div>
             <!---description-->
             <div class="form-outline mb-4 w-50 m-auto">
-                <label for="description" class="form-label">product_title</label>
+                <label for="description" class="form-label">product description</label>
+                <input type="text" name="description" id="description" class="form-control"
+                placeholder="Enter description"autocomplete="off" required="required">
+            </div>
+            <!--keyword-->
+            <div class="form-outline mb-4 w-50 m-auto">
+                <label for="description" class="form-label">product description</label>
                 <input type="text" name="description" id="description" class="form-control"
                 placeholder="Enter description"autocomplete="off" required="required">
             </div>
