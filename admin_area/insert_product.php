@@ -58,8 +58,8 @@
             </div>
             <!--image -->
             <div class="form-outline mb-4 w-50 m-auto">
-                <label for="product_keyword" class="form-label">product Image1</label>
-                <input type="text" name="keyword" id="keyword" class="form-control"
+                <label for="product_image" class="form-label">product image1</label>
+                <input type="file" name="product_image1" id="product_image1" class="form-control"
                 placeholder="keyword"autocomplete="off" required="required">
             </div>
         </form>
