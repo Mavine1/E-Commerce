@@ -67,6 +67,17 @@
                 <input type="file" name="product_image2" id="product_image2" class="form-control"
                 placeholder="keyword"autocomplete="off" required="required">
             </div>
+            <div class="form-outline mb-4 w-50 m-auto">
+                <label for="product_image" class="form-label">product image3</label>
+                <input type="file" name="product_image3" id="product_image3" class="form-control"
+                placeholder="keyword"autocomplete="off" required="required">
+            </div>
+            <!--price-->
+            <div class="form-outline mb-4 w-50 m-auto">
+                <label for="Product_price" class="form-label">product keyword</label>
+                <input type="text" name="keyword" id="keyword" class="form-control"
+                placeholder="keyword"autocomplete="off" required="required">
+            </div>
         </form>
     </div>
     
