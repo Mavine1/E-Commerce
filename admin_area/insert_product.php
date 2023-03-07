@@ -40,9 +40,7 @@
             </div>
             <!---categories-->
             <div class="form-outline mb-4 w-50 m-auto">
-                <label for="keyword" class="form-label">product keyword</label>
-                <input type="text" name="keyword" id="keyword" class="form-control"
-                placeholder="keyword"autocomplete="off" required="required">
+                <select name="product_categories" id="" class="product_category"></select>
             </div>
         </form>
     </div>
