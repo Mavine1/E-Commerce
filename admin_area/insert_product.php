@@ -74,9 +74,13 @@
             </div>
             <!--price-->
             <div class="form-outline mb-4 w-50 m-auto">
-                <label for="Product_price" class="form-label">product keyword</label>
-                <input type="text" name="keyword" id="keyword" class="form-control"
+                <label for="Product_price" class="form-label">product price</label>
+                <input type="text" name="product_price" id="product_price" class="form-control"
                 placeholder="keyword"autocomplete="off" required="required">
+            </div>
+            <!--price-->
+            <div class="form-outline mb-4 w-50 m-auto">
+                
             </div>
         </form>
     </div>
