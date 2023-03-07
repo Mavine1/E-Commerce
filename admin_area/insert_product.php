@@ -47,6 +47,15 @@
                     <option value="">category 3</option>
                 </select>
             </div>
+            <!---brands-->
+            <div class="form-outline mb-4 w-50 m-auto">
+                <select name="product_brands" id="" class="form-select">
+                    <option value="">select Brands</option>
+                    <option value="">Brand  1</option>
+                    <option value="">Brand  2</option>
+                    <option value="">Brand 3</option>
+                </select>
+            </div>
         </form>
     </div>
     
