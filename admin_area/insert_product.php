@@ -80,7 +80,7 @@
             </div>
             <!--price-->
             <div class="form-outline mb-4 w-50 m-auto">
-                
+                <input type="submit"
             </div>
         </form>
     </div>
