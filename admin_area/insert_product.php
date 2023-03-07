@@ -80,7 +80,7 @@
             </div>
             <!--price-->
             <div class="form-outline mb-4 w-50 m-auto">
-                <input type="submit"name="insert_products"class="btn btn-info " value="insert_products">
+                <input type="submit"name="insert_products"class="btn btn-info mb-3 px-3" value="insert_products">
             </div>
         </form>
     </div>
