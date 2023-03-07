@@ -41,12 +41,10 @@
             <!---categories-->
             <div class="form-outline mb-4 w-50 m-auto">
                 <select name="product_categories" id="" class="product_category">
-                    <option value="">select a category </option>
-                    <option value="">select a category</option>
-                    <option value="">select a category</option>
-                    <option value="">select a category</option>
-                    <option value="">select a category</option>
-                    <option value="">select a category</option>
+                    <option value="">Fruits</option>
+                    <option value="">Vegetables</option>
+                    <option value="">Ice cream</option>
+                    <option value="">Chips</option>
                 </select>
             </div>
         </form>
