@@ -20,10 +20,10 @@
         <h1 class="text-center">Insert products</h1>
         <!--form-->
         <form action="" method="post" enctype="multipart/form-data">
-            <div class="form-outline mb-4">
+            <div class="form-outline mb-4" width>
                 <label for="product_title" class="form-label">product_title</label>
                 <input type="text" name="product_title" id="product_title" class="form-control"
-                placeholder="Enter product title">
+                placeholder="Enter product title"autocomplete="off" required="required">
             </div>
         </form>
     </div>
