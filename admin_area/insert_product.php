@@ -1,5 +1,5 @@
 <?php
-include("../include/connect.php")
+include("../include/connect.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -48,6 +48,7 @@ include("../include/connect.php")
                     <?php
                     $select_query="select * from categories";
                     $result_query=mysqli_query($con,$select_query);
+                    while ($row=mysqli_fetch)
                     ?>
                     <option value="">category 1</option>
                     <option value="">category 2</option>
