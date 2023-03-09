@@ -53,9 +53,7 @@ include('../includes/connect.php');
                    while($row_data=mysqli_fetch_assoc($result_category)){
                      $category_title=$row_data['category_title'];
                      $Category_id=$row_data['Category_id'];
-                     echo "<li class='nav-item '>
-                     <a href='index.php?category=$Category_id' class='nav-link text-light'>$category_title</a>
-                   </li>";
+                     echo "<option value=''>category 1</option>";
                    }
                     ?>
                     <!--<option value="">category 1</option>
