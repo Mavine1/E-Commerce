@@ -46,7 +46,7 @@ include('../includes/connect.php');
                 <select name="product_categories" id="" class="form-select">
                     <option value="">select category</option>
                     <?php
-                    $select_query="select * from categories";
+                   $select_query="select * from categories where category_title ='$category_title'";
                     $result_query=mysqli_query($con,$select_query);
                     while ($row=mysqli_fetch_assoc($result_query)){
                         $category_title=$row['category_title'];
