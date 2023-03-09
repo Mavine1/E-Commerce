@@ -50,7 +50,7 @@ include("../includes/connect.php");
                     $result_query=mysqli_query($con,$select_query);
                     while ($row=mysqli_fetch_assoc($result_query)){
                         $category_title=$row['category_title'];
-                        $category_id=$row['category_id'];
+                        $Category_id=$row['Category_id'];
                         echo "caption value =''>$category_title</option>";
                     }
                     ?>
