@@ -1,5 +1,5 @@
 <?php
-include("../include/connect.php");
+include("../includes/connect.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -51,7 +51,7 @@ include("../include/connect.php");
                     while ($row=mysqli_fetch_assoc($result_query)){
                         $category_title=$row['category_title'];
                         $category_id=$row['category_id'];
-                        echo "caption value ="">$category_title</option>";
+                        echo "caption value =''>$category_title</option>";
                     }
                     ?>
                     <!--<option value="">category 1</option>
