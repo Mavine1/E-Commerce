@@ -43,7 +43,8 @@
                 <select name="product_categories" id="" class="form-select">
                     <option value="">select category</option>
                     <?php
-                    $select_query="select * from "
+                    $select_query="select * from categories";
+                    $result_query=mysqli_query($con,$select_query);
                     ?>
                     <option value="">category 1</option>
                     <option value="">category 2</option>
