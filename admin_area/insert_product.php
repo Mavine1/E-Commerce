@@ -51,7 +51,7 @@ include('../includes/connect.php');
                     while ($row=mysqli_fetch_assoc($result_query)){
                         $category_title=$row['category_title'];
                         $Category_id=$row['Category_id'];
-                        echo "<caption value =''>$Category_title</option>";
+                        echo "<caption value =''>$category_title</option>";
                     }
                     ?>
                     <!--<option value="">category 1</option>
