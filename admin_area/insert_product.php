@@ -43,6 +43,7 @@
                 <select name="product_categories" id="" class="form-select">
                     <option value="">select category</option>
                     <?php
+                    $select_query="select * from "
                     ?>
                     <option value="">category 1</option>
                     <option value="">category 2</option>
