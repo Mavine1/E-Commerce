@@ -56,13 +56,21 @@ include('../includes/connect.php');
                      echo "<option value=' $Category_id'>$category_title</option>";
                    }
                     ?>
-                    <!--<option value="">category 1</option>
-                    <option value="">category 2</option>
-                    <option value="">category 3</option>-->
                 </select>
             </div>
             <!---brands-->
             <div class="form-outline mb-4 w-50 m-auto">
+            <?php
+                   $select_category="select * from categories";
+                   $result_category=mysqli_query($con,$select_category);
+                   //$row_data=mysqli_fetch_assoc($result_brands);
+                   //echo $row_data['brand_title'];
+                   while($row_data=mysqli_fetch_assoc($result_category)){
+                     $category_title=$row_data['category_title'];
+                     $Category_id=$row_data['Category_id'];
+                     echo "<option value=' $Category_id'>$category_title</option>";
+                   }
+                    ?>
                 <select name="product_brands" id="" class="form-select">
                     <option value="">select Brands</option>
                     <option value="">Brand1</option>
