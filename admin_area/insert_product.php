@@ -60,8 +60,10 @@ include('../includes/connect.php');
             </div>
             <!---brands-->
             <div class="form-outline mb-4 w-50 m-auto">
-            <?php
-                   $select_category="select * from categories";
+                <select name="product_brands" id="" class="form-select">
+                    <option value="">select Brands</option>
+                    <?php
+                   $select_category="select * from brands";
                    $result_category=mysqli_query($con,$select_category);
                    //$row_data=mysqli_fetch_assoc($result_brands);
                    //echo $row_data['brand_title'];
@@ -71,11 +73,6 @@ include('../includes/connect.php');
                      echo "<option value=' $Category_id'>$category_title</option>";
                    }
                     ?>
-                <select name="product_brands" id="" class="form-select">
-                    <option value="">select Brands</option>
-                    <option value="">Brand1</option>
-                    <option value="">Brand2</option>
-                    <option value="">Brand3</option>
                 </select>
             </div>
             <!--image -->
