@@ -67,7 +67,7 @@ include('../includes/connect.php');
                    $result_brand=mysqli_query($con,$select_brand);
                    //$row_data=mysqli_fetch_assoc($result_brands);
                    //echo $row_data['brand_title'];
-                   while($row_data=mysqli_fetch_assoc($result_category)){
+                   while($row_data=mysqli_fetch_assoc($result_)){
                      $brand_title=$row_data['brand_title'];
                      $brand_id=$row_data['brand_id'];
                      echo "<option value=' $brand_id'>$brand_title</option>";
