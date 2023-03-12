@@ -63,14 +63,14 @@ include('../includes/connect.php');
                 <select name="product_brands" id="" class="form-select">
                     <option value="">select Brands</option>
                     <?php
-                   $select_category="select * from brands";
-                   $result_category=mysqli_query($con,$select_category);
+                   $select_brand="select * from brands";
+                   $result_brand=mysqli_query($con,$select_brand);
                    //$row_data=mysqli_fetch_assoc($result_brands);
                    //echo $row_data['brand_title'];
                    while($row_data=mysqli_fetch_assoc($result_category)){
-                     $category_title=$row_data['category_title'];
-                     $Category_id=$row_data['Category_id'];
-                     echo "<option value=' $Category_id'>$category_title</option>";
+                     $brand_title=$row_data['brand_title'];
+                     $brand_id=$row_data['brand_id'];
+                     echo "<option value=' $brand_id'>$brand_title</option>";
                    }
                     ?>
                 </select>
