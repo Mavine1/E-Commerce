@@ -88,6 +88,8 @@ include('admin_area/functions/common_function.php');
       getproducts();
       get_unique_categories();
       get_unique_brands();
+      //$ip = getIPAddress();  
+     // echo 'User Real IP Address - '.$ip;  
       ?>
   <!--row-->
   </div>
