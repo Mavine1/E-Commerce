@@ -173,7 +173,7 @@ include('../admin_area/functions/common_function.php');
         <h5 class='card-title'>$product_title</h5>
         <p class='card-text'>$product_description</p>
         <a href='#' class='btn btn-info'>add to cart</a>
-        <a href='/product_details.php?product_id=$product_id' class='btn btn-secondary'>view more</a>
+        <a href='/product_details.php?product_id=$product_id=$product_id' class='btn btn-secondary'>view more</a>
       </div>
     </div>
     </div>
@@ -198,7 +198,6 @@ include('../admin_area/functions/common_function.php');
    <!--fetching data-->
 
    <?php
-      getproducts();
       get_unique_categories();
       get_unique_brands();
       ?>
@@ -246,6 +245,7 @@ include('../admin_area/functions/common_function.php');
    <!--fetching data-->
 
    <?php
+    view_details();
       get_unique_categories();
       get_unique_brands();
       ?>
@@ -280,7 +280,7 @@ include('../admin_area/functions/common_function.php');
 </div>
 <!---footer-->
 <!--include footer-->
-<?php include("../includes/footer.php") ?>
+<?php include("/includes/footer.php") ?>
 <!---bootstrap js link---> 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
   integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

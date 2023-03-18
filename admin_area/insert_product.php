@@ -21,9 +21,10 @@ if(isset($_POST['insert_products'])){
     $temp_image2=$_FILES['product_image2']['tmp_name'];
     $temp_image3=$_FILES['product_image3']['tmp_name'];
     //checking empty condition
-    if($product_title=='' or $description=='' or $product_keyword=='' or $product_category=='' or $product_brands=='' or $product_price=='' or $product_image1=='' or 
-    $product_image2==''  or $product_image2=='' or $product_image3==''){
-        echo"<script>alert('Please fill all the available fields')</script>";
+    if($product_title=='' or $description=='' or $product_keyword=='' or $product_category=='' 
+    or $product_brands=='' or $product_image1=='' or 
+      $product_image2=='' or $product_image3=='' or  $product_price==''){
+        echo "<script>alert('Please fill all the available fields')</script>";
         exit();
     }else{
        

@@ -27,7 +27,7 @@ function getproducts(){
           <h5 class='card-title'>$product_title</h5>
           <p class='card-text'>$product_description</p>
           <a href='#' class='btn btn-info'>add to cart</a>
-          <a href='../includes/product_details.php?product_id' class='btn btn-secondary'>view more</a>
+          <a href='includes/product_details.php?product_id=$Product_id' class='btn btn-secondary'>view more</a>
         </div>
       </div>
         </div >";
@@ -61,7 +61,7 @@ function get_all_products(){
           <h5 class='card-title'>$product_title</h5>
           <p class='card-text'>$product_description</p>
           <a href='#' class='btn btn-info'>add to cart</a>
-          <a href='../../includes/product_details.php?product_id' class='btn btn-secondary'>view more</a>
+          <a href='/product_details.php?product_id=$product_id' class='btn btn-secondary'>view more</a>
         </div>
       </div>
         </div >";
@@ -99,7 +99,7 @@ function get_unique_categories(){
         <h5 class='card-title'>$product_title</h5>
         <p class='card-text'>$product_description</p>
         <a href='#' class='btn btn-info'>add to cart</a>
-        <a href='../../includes/product_details.php?product_id' class='btn btn-secondary'>view more</a>
+        <a href='/product_details.php?product_id=$product_id' class='btn btn-secondary'>view more</a>
         </div>
     </div>
       </div >";
@@ -137,7 +137,7 @@ function get_unique_brands(){
         <h5 class='card-title'>$product_title</h5>
         <p class='card-text'>$product_description</p>
         <a href='#' class='btn btn-info'>add to cart</a>
-        <a href='../../includes/product_details.php?product_id' class='btn btn-secondary'>view more</a>
+        <a href='/product_details.php?product_id=$product_id' class='btn btn-secondary'>view more</a>
         </div>
     </div>
       </div >";
@@ -207,11 +207,50 @@ function search_data(){
         <h5 class='card-title'>$product_title</h5>
         <p class='card-text'>$product_description</p>
         <a href='#' class='btn btn-info'>add to cart</a>
-        <a href='../../includes/product_details.php?product_id' class='btn btn-secondary'>view more</a>
+        <a href='/product_details.php?product_id=$product_id' class='btn btn-secondary'>view more</a>
         </div>
     </div>
       </div >";
     }
 }
+}
+
+
+
+//view details function
+function view_details(){
+  global $con;
+    //condition to check isset or not
+    if(isset($_GET['product_id'])){
+    if(!isset($_GET['category'])){
+      if(!isset($_GET['brand'])){
+        $product_id=$_GET['product_id'];
+    $select_query="select * from products order by rand() limit 0,9";
+      $result_query=mysqli_query($con,$select_query);
+      //$row_data=mysqli_fetch_assoc($result_brands);
+      //echo $row_data['brand_title'];
+      while($row_data=mysqli_fetch_assoc($result_query)){
+        $Product_id=$row_data['Product_id'];
+        $product_title=$row_data['product_title'];
+        $product_description=$row_data['product_description'];
+        $product_image1=$row_data['product_image1'];
+        $product_price=$row_data['product_price'];
+        $category_id=$row_data['category_id'];
+        $brand_id=$row_data['brand_id'];
+        echo "<div class='col md-4 mb-2'>
+        <div class='card'>
+        <img src='./admin_area/product_images/$product_image1' class='card-img-top' alt='$product_title'>
+        <div class='card-body'>
+          <h5 class='card-title'>$product_title</h5>
+          <p class='card-text'>$product_description</p>
+          <a href='#' class='btn btn-info'>add to cart</a>
+          <a href='includes/product_details.php?product_id=$Product_id' class='btn btn-secondary'>view more</a>
+        </div>
+      </div>
+        </div >";
+      }
+}
+}
+ }
 }
 ?>
