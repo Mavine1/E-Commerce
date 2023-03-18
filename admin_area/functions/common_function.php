@@ -1,6 +1,6 @@
 <?php
 //including connect file
-include('includes/connect.php');
+include('./includes/connect.php');
 
 //getting products
 function getproducts(){
@@ -47,7 +47,7 @@ function get_all_products(){
       //$row_data=mysqli_fetch_assoc($result_brands);
       //echo $row_data['brand_title'];
       while($row_data=mysqli_fetch_assoc($result_query)){
-        $product_id=$row_data['product_id'];
+        $product_id=$row_data['Product_id'];
         $product_title=$row_data['product_title'];
         $product_description=$row_data['product_description'];
         $product_image1=$row_data['product_image1'];

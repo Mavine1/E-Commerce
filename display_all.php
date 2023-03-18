@@ -118,7 +118,7 @@ include('admin_area/functions/common_function.php');
 </div>
 <!---footer-->
 <!--include footer-->
-<?php include("includes/footer.php") ?>
+<?php include("footer.php") ?>
 
 <!---bootstrap js link---> 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
