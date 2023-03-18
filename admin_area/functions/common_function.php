@@ -1,6 +1,6 @@
 <?php
 //including connect file
-include('./includes/connect.php');
+include('includes/connect.php');
 
 //getting products
 function getproducts(){
@@ -13,7 +13,7 @@ function getproducts(){
       //$row_data=mysqli_fetch_assoc($result_brands);
       //echo $row_data['brand_title'];
       while($row_data=mysqli_fetch_assoc($result_query)){
-        $product_id=$row_data['product_id'];
+        $Product_id=$row_data['Product_id'];
         $product_title=$row_data['product_title'];
         $product_description=$row_data['product_description'];
         $product_image1=$row_data['product_image1'];
@@ -27,7 +27,7 @@ function getproducts(){
           <h5 class='card-title'>$product_title</h5>
           <p class='card-text'>$product_description</p>
           <a href='#' class='btn btn-info'>add to cart</a>
-          <a href='product_details.php?product_id' class='btn btn-secondary'>view more</a>
+          <a href='../includes/product_details.php?product_id' class='btn btn-secondary'>view more</a>
         </div>
       </div>
         </div >";
@@ -61,7 +61,7 @@ function get_all_products(){
           <h5 class='card-title'>$product_title</h5>
           <p class='card-text'>$product_description</p>
           <a href='#' class='btn btn-info'>add to cart</a>
-          <a href='product_details.php?product_id' class='btn btn-secondary'>view more</a>
+          <a href='../../includes/product_details.php?product_id' class='btn btn-secondary'>view more</a>
         </div>
       </div>
         </div >";
@@ -85,7 +85,7 @@ function get_unique_categories(){
     //$row_data=mysqli_fetch_assoc($result_brands);
     //echo $row_data['brand_title'];
     while($row_data=mysqli_fetch_assoc($result_query)){
-      $product_id=$row_data['product_id'];
+      $product_id=$row_data['Product_id'];
       $product_title=$row_data['product_title'];
       $product_description=$row_data['product_description'];
       $product_image1=$row_data['product_image1'];
@@ -99,7 +99,7 @@ function get_unique_categories(){
         <h5 class='card-title'>$product_title</h5>
         <p class='card-text'>$product_description</p>
         <a href='#' class='btn btn-info'>add to cart</a>
-        <a href='product_details.php?product_id' class='btn btn-secondary'>view more</a>
+        <a href='../../includes/product_details.php?product_id' class='btn btn-secondary'>view more</a>
         </div>
     </div>
       </div >";
@@ -115,6 +115,7 @@ function get_unique_brands(){
     $brand_id=$_GET['brand'];
   $select_query="select * from products where brand_id=$brand_id";
     $result_query=mysqli_query($con,$select_query);
+   
     $num_of_rows=mysqli_num_rows($result_query);
     if($num_of_rows==0){
       echo "<h2 class = 'text-center text-danger'>Out of stock</h2>"; 
@@ -122,7 +123,7 @@ function get_unique_brands(){
     //$row_data=mysqli_fetch_assoc($result_brands);
     //echo $row_data['brand_title'];
     while($row_data=mysqli_fetch_assoc($result_query)){
-      $product_id=$row_data['product_id'];
+      $product_id=$row_data['Product_id'];
       $product_title=$row_data['product_title'];
       $product_description=$row_data['product_description'];
       $product_image1=$row_data['product_image1'];
@@ -136,7 +137,7 @@ function get_unique_brands(){
         <h5 class='card-title'>$product_title</h5>
         <p class='card-text'>$product_description</p>
         <a href='#' class='btn btn-info'>add to cart</a>
-        <a href='product_details.php?product_id' class='btn btn-secondary'>view more</a>
+        <a href='../../includes/product_details.php?product_id' class='btn btn-secondary'>view more</a>
         </div>
     </div>
       </div >";
@@ -156,7 +157,7 @@ function getbrands(){
         $brand_title=$row_data['brand_title'];
         $brand_id=$row_data['brand_id'];
         echo "<li class='nav-item '>
-        <a href='index.php?brand=$brand_title' class='nav-link text-light'>$brand_title</a>
+        <a href='index.php?brand=$brand_id' class='nav-link text-light'>$brand_title</a>
       </li>";
       }
 }
@@ -206,7 +207,7 @@ function search_data(){
         <h5 class='card-title'>$product_title</h5>
         <p class='card-text'>$product_description</p>
         <a href='#' class='btn btn-info'>add to cart</a>
-        <a href='product_details.php?product_id' class='btn btn-secondary'>view more</a>
+        <a href='../../includes/product_details.php?product_id' class='btn btn-secondary'>view more</a>
         </div>
     </div>
       </div >";

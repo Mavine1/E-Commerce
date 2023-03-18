@@ -1,7 +1,7 @@
 <!--connect file-->
 <?php
-include('includes/connect.php');
-include('admin_area/functions/common_function.php');
+include('../includes/connect.php');
+include('../admin_area/functions/common_function.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -85,10 +85,7 @@ include('admin_area/functions/common_function.php');
     <div class="col-md-4">
 <!--card-->
 <!--connect file-->
-<?php
-include('includes/connect.php');
-include('admin_area/functions/common_function.php');
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -176,7 +173,7 @@ include('admin_area/functions/common_function.php');
         <h5 class='card-title'>$product_title</h5>
         <p class='card-text'>$product_description</p>
         <a href='#' class='btn btn-info'>add to cart</a>
-        <a href='product_details.php?product_id=$product_id' class='btn btn-secondary'>view more</a>
+        <a href='/product_details.php?product_id=$product_id' class='btn btn-secondary'>view more</a>
       </div>
     </div>
     </div>
