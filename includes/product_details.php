@@ -61,6 +61,10 @@ include('../admin_area/functions/common_function.php');
   </div>
 </nav>
 </div>
+<!--calling function-->
+<?php
+cart();
+?>
 <!---Second part--->
 <nav class="navbar navbar-expand-lg navbar-dark  bg-secondary">
   <ul class="navbar-nav me-auto">

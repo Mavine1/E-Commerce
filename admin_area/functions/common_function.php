@@ -265,7 +265,7 @@ function view_details(){
           <h5 class='card-title'>$product_title</h5>
           <p class='card-text'>$product_description</p>
           <a href='index.php?add_to_cart=$Product_id' class='btn btn-info'>add to cart</a>
-          <a href='includes/product_details.php?product_id=$Product_id' class='btn btn-secondary'>view more</a>
+          <a href='index.php' class='btn btn-secondary'>Go home</a>
         </div>
       </div>
         </div >
@@ -316,17 +316,21 @@ if(isset($_GET['add_to_cart'])){
   global $con;
   $ip = getIPAddress();
   $get_product_id=$_GET['add_to_cart'];
-  $select_query="select * from cart_details where ip_address=$ip and
+  $select_query="select * from cart_details where ip_address='$ip' and
   product_id=$get_product_id";
   $result_query=mysqli_query($con,$select_query);
   $num_of_rows=mysqli_num_rows($result_query);
   if($num_of_rows>0){
-    echo "<script>alert('This item is already present inside cart'<script>"; 
-    echo"<script>window.open('index.php','_self')<script>";
+    echo "<script>alert('This item is already present inside cart')</script>"; 
+    echo"<script>window.open('index.php','_self')</script>";
 }
 else{
   $insert_query="insert into cart_details (Product_id,ip_address,quantity)
   values ($get_product_id,'$ip',0)";
+  $result_query=mysqli_query($con,$insert_query);
+  echo "<script>alert('Item added to cart')</script>"; 
+  echo"<script>window.open('index.php','_self')</script>";
+  
 }
 }
 }
