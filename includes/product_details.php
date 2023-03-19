@@ -1,7 +1,7 @@
 <!--connect file-->
 <?php
-include('../includes/connect.php');
-include('../admin_area/functions/common_function.php');
+include('includes/connect.php');
+include('admin_area/functions/common_function.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
