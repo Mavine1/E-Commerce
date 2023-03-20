@@ -47,9 +47,6 @@ include('admin_area/functions/common_function.php');
         <li class="nav-item">
           <a class="nav-link" href="cart.php"><i class="fa-solid fa-cart-shopping"></i><sup><?php
           cart_item();?></sup></a>
-          <li class="nav-item">
-          <a class="nav-link" href="#"> total price: <?php total_cart_price();?>/-</a>
-        </li>
         </li>
       </ul>
       <form class="d-flex" action="search_product.php" method="get">
