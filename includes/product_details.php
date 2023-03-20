@@ -47,7 +47,7 @@ include('../admin_area/functions/common_function.php');
         <li class="nav-item">
           <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i><sup>1</sup></a>
           <li class="nav-item">
-          <a class="nav-link" href="#">Total price:100/-</a>
+          <a class="nav-link" href="#"> total price: <?php total_cart_price();?>/-</a>
         </li>
         </li>
       </ul>
@@ -134,7 +134,7 @@ cart();
         <li class="nav-item">
           <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i><sup>1</sup></a>
           <li class="nav-item">
-          <a class="nav-link" href="#">Total price:100/-</a>
+          <a class="nav-link" href="#"> total price: <?php total_cart_price();?>/-</a>
         </li>
         </li>
       </ul>
