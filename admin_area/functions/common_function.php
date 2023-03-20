@@ -362,12 +362,20 @@ function cart_item(){
   function total_cart_price(){
     global $con;
     $ip = getIPAddress();
+    $total_price=0;
     $cart_query="select * from cart_details where ip_address='$ip'";
     $result_query=mysqli_query($con,$cart_query);
     while($row=mysqli_fetch_array($result_query)){
       $product_id=$row['product_id'];
       $select_product="select * from products where Product_id='$product_id'";
-      $result_products=mysqli_query($con,$select_product);
+      $result_product=mysqli_query($con,$select_product);
+      while($row_product_price=mysqli_fetch_array($result_product)){
+      $product_price=array($row_product_price['price']);
+      $product_values=array_sum($product_price);
+      $total_price+=$product_values;
+      }
+    
     }
+    echo $total_price;
   }
 ?>
