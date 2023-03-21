@@ -85,6 +85,13 @@ cart();
     <table class="table table-bordered">
       <thead>
         <tr>
+          <th>Product Title</th>
+          <th>Product Image</th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
       </thead>
     </table>
   </div>
