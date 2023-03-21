@@ -105,6 +105,8 @@ cart();
         </td>
       </tbody>
     </table>
+    <!--Total-->
+    di
   </div>
 </div>
 
