@@ -133,7 +133,7 @@ cart();
           $update_cart="update cart_details set quantity=$quantities
           where ip_address=$ip ";
           $result_product=mysqli_query($con,$update_cart);
-          $total_price=$total_price*
+          $total_price=$total_price*$quantities;
         }
         ?>
         <td><?php echo $product_table?>/-</td>
