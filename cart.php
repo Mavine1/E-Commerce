@@ -83,7 +83,9 @@ cart();
 <div class="container">
   <div class="row">
     <table class="table table-bordered">
-      
+      <thead>
+        <tr>
+      </thead>
     </table>
   </div>
 </div>
