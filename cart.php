@@ -94,8 +94,8 @@ cart();
         </tr>
       </thead>
       <tbody>
-        <tr>Apple</tr>
-        <td><img src="" alt=""></td>
+        <tr>dairy</tr>
+        <td><img src="./images/dairy.png" alt=""></td>
       </tbody>
     </table>
   </div>
