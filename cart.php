@@ -101,8 +101,7 @@ cart();
         <td>9000</td>
         <td><input type="Checkbox"></td>
         <td>
-          <p>Update</p>
-          <p>Remove</p>
+         <button</button>
         </td>
         </tr>
       </tbody>
