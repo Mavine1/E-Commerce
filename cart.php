@@ -96,12 +96,13 @@ cart();
       <tbody>
         <tr>
         <td>dairy</td>
-        <td><img src="./images/dairy.png" alt=""></td>
+        <td><img src="./images/dairy.png" alt="" class="Cart_img"></td>
         <td><input type="text"></td>
         <td>9000</td>
         <td><input type="Checkbox"></td>
         <td>
-         <button>update</button><button>Remove</button>
+         <button class="bg-info px-3 py-2 border-0 mx-3">update</button>
+         <button class="bg-info px-3 py-2 border-0 mx-3">Remove</button>
         </td>
         </tr>
       </tbody>
