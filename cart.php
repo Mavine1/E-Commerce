@@ -118,9 +118,7 @@ cart();
           $price_image1=$row_product_price['product_image1'];
           $product_values=array_sum($product_price);
           $total_price+=$product_values;
-          }
         
-        }
         ?>
         <tr>
         <td>dairy</td>
@@ -133,6 +131,10 @@ cart();
          <button class="bg-info px-3 py-2 border-0 mx-3">Remove</button>
         </td>
         </tr>
+        <?php
+          }
+          }
+          ?>
       </tbody>
     </table>
     <!--Total-->
