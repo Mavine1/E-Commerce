@@ -132,8 +132,8 @@ cart();
         </td>
         </tr>
         <?php
-          }
-          }
+      }
+   }
           ?>
       </tbody>
     </table>
