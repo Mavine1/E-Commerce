@@ -130,6 +130,8 @@ cart();
          $ip = getIPAddress();
          if(isset($_POST['update_cart'])){
           $quantities=$_POST['qty'];
+          $update_cart="update cart_details set quantity=$quantities"
+          ;
         }
         ?>
         <td><?php echo $product_table?>/-</td>
