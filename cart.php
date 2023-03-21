@@ -127,7 +127,6 @@ cart();
         <td><img src="./images/<?php echo $product_image1 ?>" alt="" class="Cart_img"></td>
         <td><input type="text" name="qty" class="form-input w-50"></td>
         <?php
-        echo var_dump()
          $ip = getIPAddress();
          if(isset($_POST['update_cart'])){
           $quantities=$_POST['qty'];
