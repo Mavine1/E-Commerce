@@ -90,7 +90,7 @@ cart();
           <th>Quantity</th>
           <th>Total price</th>
           <th>Remove</th>
-          <th>Operations</th>
+          <th colspan="2">Operations</th>
         </tr>
       </thead>
       <tbody>
@@ -101,7 +101,7 @@ cart();
         <td>9000</td>
         <td><input type="Checkbox"></td>
         <td>
-         <button</button>
+         <button>update</button><button>Remove</button>
         </td>
         </tr>
       </tbody>
