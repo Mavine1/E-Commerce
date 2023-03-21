@@ -113,7 +113,7 @@ cart();
           $result_product=mysqli_query($con,$select_product);
           while($row_product_price=mysqli_fetch_array($result_product)){
           $product_price=array($row_product_price['product_price']);
-          $product_price=$row_product_price['product_price'];
+          $product_table=$row_product_price['product_price'];
           $product_title=$row_product_price['product_title'];
           $product_image1=$row_product_price['product_image1'];
           $product_values=array_sum($product_price);
