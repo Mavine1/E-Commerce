@@ -127,6 +127,7 @@ cart();
         <td><img src="./images/<?php echo $product_image1 ?>" alt="" class="Cart_img"></td>
         <td><input type="text" name="qty" class="form-input w-50"></td>
         <?php
+        echo var_dump()
          $ip = getIPAddress();
          if(isset($_POST['update_cart'])){
           $quantities=$_POST['qty'];
@@ -135,8 +136,6 @@ cart();
           $result_products_quantity=mysqli_query($con,$update_cart);
           $total_price=$total_price*$quantities;
         }
-        ()
-
         ?>
         <td><?php echo $product_table?>/-</td>
         <td><input type="Checkbox"></td>
