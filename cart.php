@@ -113,15 +113,15 @@ cart();
           $result_product=mysqli_query($con,$select_product);
           while($row_product_price=mysqli_fetch_array($result_product)){
           $product_price=array($row_product_price['product_price']);
-          $price_table=$row_product_price['product_price'];
-          $price_title=$row_product_price['product_title'];
+          $product_price=$row_product_price['product_price'];
+          $Produc_title=$row_product_price['product_title'];
           $price_image1=$row_product_price['product_image1'];
           $product_values=array_sum($product_price);
           $total_price+=$product_values;
         
         ?>
         <tr>
-        <td>dairy</td>
+        <td><?php ?></td>
         <td><img src="./images/dairy.png" alt="" class="Cart_img"></td>
         <td><input type="text"></td>
         <td>9000</td>
