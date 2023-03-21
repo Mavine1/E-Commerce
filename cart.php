@@ -93,6 +93,10 @@ cart();
           <th>Operations</th>
         </tr>
       </thead>
+      <tbody>
+        <tr>Apple</tr>
+        <td><img src="" alt=""></td>
+      </tbody>
     </table>
   </div>
 </div>
