@@ -114,6 +114,8 @@ cart();
           while($row_product_price=mysqli_fetch_array($result_product)){
           $product_price=array($row_product_price['product_price']);
           $price_table=$row_product_price['product_price'];
+          $price_title=$row_product_price['product_title'];
+          $price_image1=$row_product_price['product_image1'];
           $product_values=array_sum($product_price);
           $total_price+=$product_values;
           }
