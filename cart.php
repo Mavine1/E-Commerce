@@ -125,7 +125,10 @@ cart();
         <tr>
         <td><?php echo $product_title ?></td>
         <td><img src="./images/<?php echo $product_image1 ?>" alt="" class="Cart_img"></td>
-        <td><input type="text" name="" id="" class="form-input w-50"></td>
+        <td><input type="text" name="qty" class="form-input w-50"></td>
+        <?php
+         $ip = getIPAddress();
+        ?>
         <td><?php echo $product_table?>/-</td>
         <td><input type="Checkbox"></td>
         <td>
