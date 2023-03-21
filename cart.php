@@ -130,7 +130,8 @@ cart();
         <td><input type="Checkbox"></td>
         <td>
         <!--<button class="bg-info px-3 py-2 border-0 mx-3">update</button>-->
-        in
+        <input type="submit" value="update cart"
+        class="bg-info px-3 py-2 border-0 mx-3">
          <button class="bg-info px-3 py-2 border-0 mx-3">Remove</button>
         </td>
         </tr>
