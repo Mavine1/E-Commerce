@@ -96,6 +96,7 @@ cart();
       <tbody>
         <tr>dairy</tr>
         <td><img src="./images/dairy.png" alt=""></td>
+        <td>3</td>
       </tbody>
     </table>
   </div>
