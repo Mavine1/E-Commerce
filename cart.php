@@ -125,7 +125,7 @@ cart();
         <td><?php echo $product_title ?></td>
         <td><img src="./images/<?php echo $product_image1 ?>" alt="" class="Cart_img"></td>
         <td><input type="text"></td>
-        <td>9000</td>
+        <td><?php echo $product_table?>/-</td>
         <td><input type="Checkbox"></td>
         <td>
          <button class="bg-info px-3 py-2 border-0 mx-3">update</button>
