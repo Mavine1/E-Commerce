@@ -23,6 +23,7 @@ include('admin_area/functions/common_function.php');
       .Cart_img{
     width: 80px;
     height: 80px;
+    object-fit:contain;
 }
       </style>
     </head>
