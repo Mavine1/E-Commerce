@@ -108,8 +108,9 @@ cart();
       </tbody>
     </table>
     <!--Total-->
-    <div>
+    <div class>
       <h4 class="px-3">Total:<strong class="text-info">5000/-</strong></h4>
+   
     </div>
   </div>
 </div>
