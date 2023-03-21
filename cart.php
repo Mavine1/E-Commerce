@@ -96,7 +96,13 @@ cart();
       <tbody>
         <tr>dairy</tr>
         <td><img src="./images/dairy.png" alt=""></td>
-        <td>3</td>
+        <td><input type="text"></td>
+        <td>9000</td>
+        <td><input type="Checkbox"></td>
+        <td>
+          <p>Update</p>
+          <p>Remove</p>
+        </td>
       </tbody>
     </table>
   </div>
