@@ -87,10 +87,10 @@ cart();
         <tr>
           <th>Product Title</th>
           <th>Product Image</th>
-          <th></th>
-          <th></th>
-          <th></th>
-          <th></th>
+          <th>Quantity</th>
+          <th>Total price</th>
+          <th>Remove</th>
+          <th>Operations</th>
         </tr>
       </thead>
     </table>
