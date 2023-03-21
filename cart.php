@@ -111,7 +111,9 @@ cart();
     <div class="d-flex">
       <h4 class="px-3">Total:<strong class="text-info">5000/-</strong></h4>
     <a href="index.php"><button class="bg-info px-3 border-0">Continue shopping</button></a>
-    </div>
+    <a href="#"><button class="bg-sepx-3 border-0">Check out</button></a>
+
+  </div>
   </div>
 </div>
 
