@@ -94,7 +94,8 @@ cart();
         </tr>
       </thead>
       <tbody>
-        <tr>dairy</tr>
+        <tr>
+        <td>dairy</td>
         <td><img src="./images/dairy.png" alt=""></td>
         <td><input type="text"></td>
         <td>9000</td>
@@ -103,6 +104,7 @@ cart();
           <p>Update</p>
           <p>Remove</p>
         </td>
+        </tr>
       </tbody>
     </table>
     <!--Total-->
