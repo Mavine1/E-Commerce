@@ -79,38 +79,7 @@ cart();
   <h3 class="text-center">Store</h3>
   <p class="text-center">Communication is the heart of E-commerce and community</p>
 </div>
-<!--fourth-->
-<div class="row px-1">
-    <!--products-->
-<div class="row">
-   <!--fetching data-->
 
-   <?php
-      getproducts();
-      get_unique_categories();
-      get_unique_brands();
-      //$ip = getIPAddress();  
-     //echo 'User Real IP Address - '.$ip;  
-      ?>
-  <!--row-->
-  </div>
-  <!--col end-->
-</div>
-
-  <div class="col-md-2 bg-secondary p-0">
-      <!--fetching data-->
-      <?php
-      getbrands();
-      ?>
-    </ul>
-  <!------categories--->
-  <ul class="navbar-nav me-auto text-center">
-      <!--fetching of data from the database-->
-      <?php
-      getcategories();
-      ?>
-    </ul>
-</div>
 <!---footer-->
 <!--include footer-->
 <?php include("footer.php") ?>
