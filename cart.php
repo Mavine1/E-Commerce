@@ -135,6 +135,8 @@ cart();
           $result_products_quantity=mysqli_query($con,$update_cart);
           $total_price=$total_price*$quantities;
         }
+        ()
+
         ?>
         <td><?php echo $product_table?>/-</td>
         <td><input type="Checkbox"></td>
