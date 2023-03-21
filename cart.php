@@ -128,6 +128,8 @@ cart();
         <td><input type="text" name="qty" class="form-input w-50"></td>
         <?php
          $ip = getIPAddress();
+         if(isset($_POST['update_cart'])){
+        }
         ?>
         <td><?php echo $product_table?>/-</td>
         <td><input type="Checkbox"></td>
