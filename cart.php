@@ -89,7 +89,7 @@ cart();
 <!--fourth child table-->
 <div class="container">
   <div class="row">
-    <form action="" method="post"></form>
+    <form action="" method="post">
     <table class="table table-bordered text-center">
       <thead>
         <tr>
@@ -129,7 +129,8 @@ cart();
         <td><?php echo $product_table?>/-</td>
         <td><input type="Checkbox"></td>
         <td>
-         <button class="bg-info px-3 py-2 border-0 mx-3">update</button>
+        <!--<button class="bg-info px-3 py-2 border-0 mx-3">update</button>-->
+        in
          <button class="bg-info px-3 py-2 border-0 mx-3">Remove</button>
         </td>
         </tr>
@@ -150,6 +151,7 @@ cart();
   </div>
   </div>
 </div>
+</form>
 
 <!---footer-->
 <!--include footer-->
