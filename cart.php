@@ -169,7 +169,7 @@ cart();
 <?php 
 function remove_cart_item(){
   global $con;
-  if(isset($_POST['remove_cart'])){
+  if(isset($_POST['Remove_cart'])){
     foreach($_POST['removeitem'] as $remove_id){
       echo $remove_id;
       $delete_query="Delete from cart_details where Product_id=$remove_id";
