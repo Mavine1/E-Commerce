@@ -143,8 +143,10 @@ cart();
         <!--<button class="bg-info px-3 py-2 border-0 mx-3">update</button>-->
         <input type="submit" value="update cart"
         class="bg-info px-3 py-2 border-0 mx-3" name="Update_cart">
-         <button class="bg-info px-3 py-2 border-0 mx-3">Remove</button>
-        </td>
+        <!--<button class="bg-info px-3 py-2 border-0 mx-3">Remove</button>-->
+        <input type="submit" value="update cart"
+        class="bg-info px-3 py-2 border-0 mx-3" name="Remove_cart">
+      </td>
         </tr>
         <?php
       }
