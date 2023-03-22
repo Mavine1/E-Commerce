@@ -127,6 +127,16 @@ cart();
           $total_price+=$product_values;
         
         ?>
+         <thead>
+        <tr>
+          <th>Product Title</th>
+          <th>Product Image</th>
+          <th>Quantity</th>
+          <th>Total price</th>
+          <th>Remove</th>
+          <th colspan='2'>Operations</th>
+        </tr>
+      </thead>
         <tr>
         <td><?php echo $product_title ?></td>
         <td><img src="./admin_area/product_images/<?php echo $product_image1 ?>" alt="" class="Cart_img"></td>
