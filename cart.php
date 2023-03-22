@@ -179,7 +179,9 @@ cart();
         echo "<input type='submit' value='Continue shopping'
         class='bg-info px-3 py-2 border-0 mx-3' name='continue shopping'>";
       }
-      if()
+      if(isset($_POST['continue shopping'])){
+        echo "<script>window</script>";
+      }
       ?>
       
   </div>
