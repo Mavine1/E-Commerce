@@ -76,7 +76,11 @@ include('includes/connect.php');
   <div class="col md-12">
     <!--products-->
 <div class="row">
-    if(!isset($_SESSION['username']))
+    <?php
+    if(!isset($_SESSION['username'])){
+
+    }
+    ?>
   <!--row-->
   </div>
   <!--col end-->
