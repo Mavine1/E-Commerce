@@ -103,12 +103,12 @@ cart();
         $result_query=mysqli_query($con,$cart_query);
         $result_count=mysqli_num_rows($result_query);
         if($result_count>0){
-         //echo "
-          //<thead>
-        //<tr>
-          //<th>Product Title</th>
-          //<th>Product Image</th>
-          //<th>Quantity</th>
+         echo "
+          <thead>
+        <tr>
+          <th>Product Title</th>
+          <th>Product Image</th>
+          <th>Quantity</th>
           <th>Total price</th>
         <th>Remove</th>
           <th colspan='2'>Operations</th>
