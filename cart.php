@@ -167,7 +167,12 @@ cart();
 </div>
 </form>
 <?php 
-
+function remove_cart_item(){
+  global $con;
+  if(isset($_POST['remove_cart'])){
+    
+  }
+}
 ?>
 <!---footer-->
 <!--include footer-->
