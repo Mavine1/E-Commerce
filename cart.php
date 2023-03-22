@@ -161,6 +161,7 @@ cart();
     </table>
     <!--Total-->
     <div class="d-flex mb-5">
+      
       <h4 class="px-3">Total:<strong class="text-info">
       <?php echo $total_price ?>
       </strong></h4>
