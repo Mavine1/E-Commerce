@@ -166,7 +166,9 @@ cart();
   </div>
 </div>
 </form>
+<?php 
 
+?>
 <!---footer-->
 <!--include footer-->
 <?php include("footer.php") ?>
