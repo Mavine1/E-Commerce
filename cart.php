@@ -164,7 +164,6 @@ cart();
       <?php
       global $con;
       $ip = getIPAddress();
-      $total_price=0;
       $cart_query="select * from cart_details where ip_address='$ip'";
       $result_query=mysqli_query($con,$cart_query);
       $result_count=mysqli_num_rows($result_query);
@@ -176,7 +175,8 @@ cart();
       <a href=''><button class='bg-secondary px-3 py-2 border-0 text-light'>Check out</button></a>";
       }
       else{
-        echo ""
+        echo "<a href='index.php'><button class='bg-info px-3 py-2 border-0 mx-3'
+        Continue shopping</button></a>";
       }
       ?>
       
