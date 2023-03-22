@@ -103,7 +103,7 @@ cart();
         $result_query=mysqli_query($con,$cart_query);
         $result_count=mysqli_num_rows($result_query);
         if($result_count>0){
-          echo "
+         <!-- echo "
           <thead>
         <tr>
           <th>Product Title</th>
@@ -113,7 +113,7 @@ cart();
           <th>Remove</th>
           <th colspan='2'>Operations</th>
         </tr>
-      </thead>";
+      </thead>";-->
         while($row=mysqli_fetch_array($result_query)){
           $product_id=$row['Product_id'];
           $select_product="select * from products where Product_id='$product_id'";
