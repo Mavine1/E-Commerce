@@ -1,7 +1,7 @@
 <!--connect file-->
 <?php
 include('includes/connect.php');
-include('admin_area/functions/common_function.php');
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -44,13 +44,6 @@ include('admin_area/functions/common_function.php');
         <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="cart.php"><i class="fa-solid fa-cart-shopping"></i><sup><?php
-          cart_item();?></sup></a>
-          <li class="nav-item">
-          <a class="nav-link" href="#"> total price: <?php total_cart_price();?>/-</a>
-        </li>
-        </li>
       </ul>
       <form class="d-flex" action="search_product.php" method="get">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search_data">
@@ -62,10 +55,6 @@ include('admin_area/functions/common_function.php');
   </div>
 </nav>
 </div>
-<!--calling function-->
-<?php
-cart();
-?>
 <!---Second part--->
 <nav class="navbar navbar-expand-lg navbar-dark  bg-secondary">
   <ul class="navbar-nav me-auto">
