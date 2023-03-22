@@ -175,7 +175,7 @@ function remove_cart_item(){
       $delete_query="Delete from cart_details where Product_id=$remove_id";
       $run_delete=mysqli_query($con,$delete_query);
       if($run_delete){
-        echo "<script></script>";
+        echo "<script>window.open('cart.php','_self')</script>";
       }
 
     }
