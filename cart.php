@@ -111,7 +111,10 @@ cart();
         $cart_query="select * from cart_details where ip_address='$ip'";
         $result_query=mysqli_query($con,$cart_query);
         $result_count=mysqli_num_rows($result_query);
-        if($result_count)
+        if($result_count>0){
+          echo
+
+        
         while($row=mysqli_fetch_array($result_query)){
           $product_id=$row['Product_id'];
           $select_product="select * from products where Product_id='$product_id'";
@@ -152,7 +155,7 @@ cart();
         </tr>
         <?php
       }
-   }
+   }}
           ?>
       </tbody>
     </table>
