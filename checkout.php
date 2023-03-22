@@ -78,7 +78,10 @@ include('includes/connect.php');
 <div class="row">
     <?php
     if(!isset($_SESSION['username'])){
-
+    include('user_area/user_login.php');
+    }
+    else{
+        include('user_area/user_login.php');
     }
     ?>
   <!--row-->
