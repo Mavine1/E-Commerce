@@ -182,6 +182,7 @@ function remove_cart_item(){
 
   }
 }
+echo $remove_item=remove_cart_item();
 ?>
 <!---footer-->
 <!--include footer-->
