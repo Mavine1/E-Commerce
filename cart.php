@@ -171,7 +171,8 @@ cart();
         
         echo " <h4 class='px-3'>Total:<strong class='text-info'>
         $total_price</strong></h4>
-      <a href='index.php'><button class='bg-info px-3 py-2 border-0 mx-3'>Continue shopping</button></a>
+        <input type='submit' value='Remove cart'
+        class='bg-info px-3 py-2 border-0 mx-3' name='Remove_cart'>
       <a href=''><button class='bg-secondary px-3 py-2 border-0 text-light'>Check out</button></a>";
       }
       else{
