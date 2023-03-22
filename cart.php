@@ -161,7 +161,17 @@ cart();
     </table>
     <!--Total-->
     <div class="d-flex mb-5">
-      
+      <?php
+      global $con;
+      $ip = getIPAddress();
+      $total_price=0;
+      $cart_query="select * from cart_details where ip_address='$ip'";
+      $result_query=mysqli_query($con,$cart_query);
+      $result_count=mysqli_num_rows($result_query);
+      if($result_count>0){
+        
+      }
+      ?>
       <h4 class="px-3">Total:<strong class="text-info">
       <?php echo $total_price ?>
       </strong></h4>
