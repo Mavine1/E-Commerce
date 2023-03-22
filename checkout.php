@@ -81,7 +81,7 @@ include('includes/connect.php');
     include('user_area/user_login.php');
     }
     else{
-        include('user_area/user_login.php');
+        include('payment.php');
     }
     ?>
   <!--row-->
