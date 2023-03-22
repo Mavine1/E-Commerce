@@ -155,7 +155,9 @@ cart();
         <?php
       }
    }}
-          ?>
+     else{
+      echo "<h2> Cart is empty</h2>";
+     }     ?>
       </tbody>
     </table>
     <!--Total-->
