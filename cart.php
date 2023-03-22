@@ -92,16 +92,7 @@ cart();
 
     <form action="" method="post">
     <table class="table table-bordered text-center">
-      <thead>
-        <tr>
-          <th>Product Title</th>
-          <th>Product Image</th>
-          <th>Quantity</th>
-          <th>Total price</th>
-          <th>Remove</th>
-          <th colspan="2">Operations</th>
-        </tr>
-      </thead>
+      
       <tbody>
         <!--php code to display dynamic data-->
         <?php
