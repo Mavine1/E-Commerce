@@ -138,7 +138,7 @@ cart();
         }
         ?>
         <td><?php echo $product_table?>/-</td>
-        <td><input type="Checkbox" name="removeitem[]"></td>
+        <td><input type="Checkbox" name="removeitem[]" value="<?php echo $product_></td>
         <td>
         <!--<button class="bg-info px-3 py-2 border-0 mx-3">update</button>-->
         <input type="submit" value="update cart"
