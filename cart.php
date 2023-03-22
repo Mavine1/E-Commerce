@@ -138,13 +138,13 @@ cart();
         }
         ?>
         <td><?php echo $product_table?>/-</td>
-        <td><input type="Checkbox"></td>
+        <td><input type="Checkbox" name="removeitem[]"></td>
         <td>
         <!--<button class="bg-info px-3 py-2 border-0 mx-3">update</button>-->
         <input type="submit" value="update cart"
         class="bg-info px-3 py-2 border-0 mx-3" name="Update_cart">
         <!--<button class="bg-info px-3 py-2 border-0 mx-3">Remove</button>-->
-        <input type="submit" value="update cart"
+        <input type="submit" value="Remove cart"
         class="bg-info px-3 py-2 border-0 mx-3" name="Remove_cart">
       </td>
         </tr>
