@@ -173,7 +173,7 @@ cart();
         $total_price</strong></h4>
         <input type='submit' value='Continue shopping'
         class='bg-info px-3 py-2 border-0 mx-3' name='continue shopping'>
-      <button class='bg-secondary px-3 py-2 border-0 text-light'><a href='checkout.php' class='text-light'>
+      <button class='bg-secondary px-3 py-2 border-0 text-light'><a href='checkout.php' class='text-light text-decoration-none'>
       Check out</a></button>";
       }
       else{
