@@ -155,7 +155,7 @@ cart();
       }
    }}
      else{
-      echo "<h2 class ='text-danger'> Cart is empty</h2>";
+      echo "<h2 class ='text-center text-danger'> Cart is empty</h2>";
      }     ?>
       </tbody>
     </table>
