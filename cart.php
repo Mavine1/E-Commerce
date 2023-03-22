@@ -131,7 +131,7 @@ cart();
          if(isset($_POST['update_cart'])){
           $quantities=$_POST['qty'];
           $update_cart="update cart_details set quantity=$quantities
-          where ip_address=$ip'";
+          where ip_address='$ip'";
           $result_products_quantity=mysqli_query($con,$update_cart);
           $total_price=$total_price*$quantities;
         }
