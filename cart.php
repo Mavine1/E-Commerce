@@ -177,9 +177,9 @@ cart();
       }
       else{
         echo "<input type='submit' value='Continue shopping'
-        class='bg-info px-3 py-2 border-0 mx-3' name='continue shopping'>";
+        class='bg-info px-3 py-2 border-0 mx-3' name='continue_shopping'>";
       }
-      if(isset($_POST['continue shopping'])){
+      if(isset($_POST['continue_shopping'])){
         echo "<script>window.open('index.php','_self')</script>";
       }
       ?>
