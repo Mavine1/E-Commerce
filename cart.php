@@ -109,11 +109,11 @@ cart();
           //<th>Product Title</th>
           //<th>Product Image</th>
           //<th>Quantity</th>
-          //<th>Total price</th>
-          //<th>Remove</th>
-          //<th colspan='2'>Operations</th>
-        //</tr>
-      //</thead>";
+          <th>Total price</th>
+        <th>Remove</th>
+          <th colspan='2'>Operations</th>
+        </tr>
+      </thead>";
         while($row=mysqli_fetch_array($result_query)){
           $product_id=$row['Product_id'];
           $select_product="select * from products where Product_id='$product_id'";
@@ -125,18 +125,7 @@ cart();
           $product_image1=$row_product_price['product_image1'];
           $product_values=array_sum($product_price);
           $total_price+=$product_values;
-        
         ?>
-         <thead>
-        <tr>
-          <th>Product Title</th>
-          <th>Product Image</th>
-          <th>Quantity</th>
-          <th>Total price</th>
-          <th>Remove</th>
-          <th colspan='2'>Operations</th>
-        </tr>
-      </thead>
         <tr>
         <td><?php echo $product_title ?></td>
         <td><img src="./admin_area/product_images/<?php echo $product_image1 ?>" alt="" class="Cart_img"></td>
